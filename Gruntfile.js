@@ -15,7 +15,7 @@ module.exports = function (grunt) {
 
         shell: {
             moveTemlates: {
-                command: 'touch ../../mamp/wp-spianata/wp-content/themes/spianata/temp.txt && rm -r ../../mamp/wp-spianata/wp-content/themes/spianata/*'
+                command: 'touch ../../mamp/wp-content/themes/wp-spianata/temp.txt && rm -r ../../mamp/wp-content/themes/wp-spianata/*'
             }
         },
 
@@ -57,7 +57,7 @@ module.exports = function (grunt) {
                     '!package-lock.json',
                     '!package.json'
                 ],
-                dest: '../../mamp/spianata/wp-content/themes/spianata'
+                dest: '../../mamp/wp-content/themes/wp-spianata'
             }
         },
 
