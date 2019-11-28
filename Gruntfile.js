@@ -15,7 +15,7 @@ module.exports = function (grunt) {
 
         shell: {
             moveTemlates: {
-                command: 'touch ../../mamp/spianata/wp-content/themes/spianata/temp.txt && rm -r ../../mamp/spianata/wp-content/themes/spianata/*'
+                command: 'touch ../../mamp/wp-spianata/wp-content/themes/spianata/temp.txt && rm -r ../../mamp/wp-spianata/wp-content/themes/spianata/*'
             }
         },
 
