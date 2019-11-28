@@ -1,0 +1,148 @@
+.active-link {
+    color: $red;
+}
+
+.time {
+    display: none;
+}
+
+.postcode-ok .all-categories {
+    display: block !important;
+}
+
+.postcode-not-ok .message {
+    @extend ._h1;
+    display: block !important;
+    padding-top: $s-padding;
+
+
+}
+
+.postcode-ok .post-code {
+    display: none;
+}
+
+.post-type-archive-product {
+
+    .woocommerce-breadcrumb {
+        display: none;
+
+        a {
+            display: none;
+        }
+    }
+
+    .post-code {
+        @extend ._basic-width;
+        @extend ._h1;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        .post-code-function {
+            padding-bottom: 30px;
+            display: flex;
+
+            .post-code-number {
+                @extend ._h1;
+                color: $light-grey;
+            }
+
+            .check {
+                cursor: pointer;
+                padding-left: 8px;
+                color: $red !important;            }
+        }
+    }
+
+    input {
+        @extend ._h1;
+        border-width: 0;
+    }
+
+    .message {
+        display: none;
+    }
+
+    .all-categories {
+
+        .option-top {
+            @extend ._basic-width;
+            margin-top: 20px;
+
+            
+        }
+
+
+        @extend ._h1;
+        display: none;
+
+        @media only screen and (max-width: $break-phone) {
+            padding-top: 30px;
+        }
+
+        .woo-category {
+            @extend ._basic-width;
+            margin-top: 20px;
+            list-style: none;
+            border-top: 1.3px solid black;
+        }
+
+        .category-title {
+            padding-top: $f-padding;
+            text-transform: uppercase;
+        }
+
+        .category-description {
+            padding-bottom: 70px;
+        }
+
+        .woo-product {
+            padding-bottom: $u-padding;
+        }
+
+        .woo-product-description {
+            color: $grey;
+        }
+
+        .woocommerce-loop-product__link img {
+            display: none;
+        }
+
+        .woocommerce-loop-product__title {
+            display: none;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .price {
+            pointer-events: none;
+            float: left;
+        }
+
+        .add-to-cart {
+            display: flex;
+        }
+
+        .ajax_add_to_cart {
+            color: $red;
+            display: block !important;
+            float: right;
+            padding-left: $s-padding;
+        }
+    }
+
+    .shop-footer {
+
+        .flex-image {
+            display: flex;
+
+            img {
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,230 @@
+html,
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Futura Md BT';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+
+	width: 100vw;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: $dark-grey;
+}
+
+textarea,
+select,
+input,
+button {
+	outline: none;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.fade-in {
+
+	.inside-normal,
+	.content-area {
+		opacity: 1 !important;
+	}
+}
+
+.inside-normal,
+.woocommerce {
+	min-height: calc(100vh - 38px);
+}
+
+.content-area,
+.inside-normal {
+	opacity: 0;
+	transition: 0.2s ease-in;
+}
+
+strong {
+	font-weight: normal;
+}
+
+input:-webkit-autofill {
+	border: none !important;
+	-webkit-text-fill-color: $light-grey  !important;
+	background-color: $light-grey !important;
+	-webkit-box-shadow: none;
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+input {
+	border: 0px;
+	@extend ._h1;
+	color: $light-grey !important;
+
+}
+
+fieldset {
+	border: 0px;
+}
+
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	/* 1 */
+	font-size: 100%;
+	/* 1 */
+	line-height: 1.15;
+	/* 1 */
+	margin: 0;
+	/* 2 */
+}
+
+/**
+  * Show the overflow in IE.
+  * 1. Show the overflow in Edge.
+  */
+
+button,
+input {
+	/* 1 */
+	overflow: visible;
+}
+
+/**
+  * Remove the inheritance of text transform in Edge, Firefox, and IE.
+  * 1. Remove the inheritance of text transform in Firefox.
+  */
+
+button,
+select {
+	/* 1 */
+	text-transform: none;
+}
+
+/**
+  * Correct the inability to style clickable types in iOS and Safari.
+  */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+	-webkit-appearance: button;
+	border: 0px;
+	color: $red !important;
+	cursor: pointer;
+}
+
+mark {
+	background: none;
+	color: $red;
+}
+
+address {
+	font-style: normal;
+	color: $grey;
+}
+
+button,
+select {
+	text-transform: none;
+	background: none;
+	border: none;
+	color: $light-grey !important;
+}
+
+#customer_details {
+	.col-1 {
+		padding-bottom: 0px;
+
+		.woocommerce-billing-fields {
+			padding-bottom: 0px;
+		}
+	}
+
+	.col-2 {
+		padding-bottom: 0px;
+	}
+}
+
+.woocommerce-additional-fields__field-wrapper {
+	.woocommerce-input-wrapper {
+		display: grid;
+
+		textarea {
+			border: none;
+			color: $light-grey;
+		}
+
+
+	}
+}
+
+::placeholder {
+	color: $light-grey;
+
+}
+
+.shop_table.woocommerce-checkout-review-order-table {
+	.product-name {
+		width: 50%;
+	}
+
+	.product-total {
+		width: 50%;
+	}
+}
+
+.woocommerce-shipping-fields__field-wrapper {
+	padding-bottom: 0px !important;
+}
+
+.shipping_address {
+	padding-bottom: 0px !important;
+
+}
+
+.woocommerce-additional-fields {
+	padding-bottom: 0px !important;
+
+}
+
+.payment_bo.payment_method_bacs {
+	padding-bottom: 0px !important;
+
+}
+
+.form-row.place-order {
+	button {
+		color: $red !important;
+	}
+}
+
+.woocommerce-terms-and-conditions-wrapper {
+	padding-bottom: 0px !important;
+
+}
+
+.customer_details {
+	padding-bottom: 0px !important;
+
+}

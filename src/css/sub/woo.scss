@@ -1,0 +1,10 @@
+.woocommerce-page {
+    .woocommerce {
+        @extend ._basic-width;
+        padding-bottom: 300px;
+
+        div {
+            padding-bottom: 50px;
+        }
+    }
+}

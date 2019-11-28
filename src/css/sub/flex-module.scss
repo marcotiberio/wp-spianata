@@ -1,0 +1,44 @@
+.flexible-content {
+    padding-top: 13px;
+
+    .flex-text {
+        @extend ._h1;
+        @extend ._basic-width;
+
+        a:hover {
+            color: $red !important;
+        }
+
+        .distance-top {
+            margin-top: 15vw;
+        }
+
+        .distance-bottom {
+            padding-bottom: $distance-bottom;
+        }
+
+        .line-top {
+            padding-top: 15px;
+            border-top: 1.3px solid black;
+        }
+    }
+
+    .flex-image {
+        display: grid;
+
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    .flex-video {
+
+        video {
+            height: auto;
+            max-width: 100%;
+
+        }
+
+    }
+}

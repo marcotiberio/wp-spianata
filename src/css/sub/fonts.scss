@@ -1,0 +1,46 @@
+._h1 {
+    font-family: 'Futura Md BT';
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    text-indent: 0em;
+    color: $black;
+}
+
+._h2 {
+    font-family: 'Futura Md BT';
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    color: $dark-grey;
+}
+
+._h3 {
+    font-family: 'Futura Md BT';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-indent: 0em;
+    color: $dark-grey;
+}
+
+._h0 {
+    font-family: 'Futura Bk BT';
+    font-size: 21vh;
+    letter-spacing: 4vh;
+    line-height: 20vh;
+}
+
+
+h3 {
+    @extend ._h1;
+}
+
+h2 {
+    @extend ._h1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
