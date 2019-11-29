@@ -8,27 +8,3 @@
         }
     }
 }
-
-
-// EDITS
-
-.woocommerce-MyAccount-navigation-link--downloads {
-    display: none;
-}
-
-.woocommerce-info {
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 2;
-    grid-auto-flow: dense;
-}
-
-address {
-    color: $black;
-}
-
-.flex-text {
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-}

@@ -2,7 +2,7 @@ html,
 * {
 	margin: 0px;
 	padding: 0px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 body {
@@ -20,10 +20,6 @@ li {
 
 a {
 	color: $dark-grey;
-}
-
-thead {
-	display: none;			// EDIT
 }
 
 textarea,
@@ -232,168 +228,3 @@ select {
 	padding-bottom: 0px !important;
 
 }
-
-
-
-
-// EDITS
-
-#billing_first_name {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_last_name {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_company {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_country {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_address_1 {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_address_2 {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_postcode {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_city {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_state {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_phone {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#billing_email {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#order_comments {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-.woocommerce-additional-fields h3 {
-	display: none;
-}
-
-#username {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#password {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#user_login {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#account_first_name {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#account_last_name {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-.clear {
-	display: none;
-}
-
-#account_email {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-fieldset {
-	display: none;
-}
-
-#password_current {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#password_1 {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
-#password_2 {
-	display: flex;
-    width: 100%;
-    background-color: $light-grey;
-    border: none;
-}
-
