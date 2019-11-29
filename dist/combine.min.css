@@ -1,10 +1,10 @@
-._basic-width, .woocommerce-page .woocommerce, .post-type-archive-product .all-categories .woo-category, .post-type-archive-product .all-categories .option-top, .post-type-archive-product .post-code, .flexible-content .flex-text, .footer-main {
+._basic-width, .footer-main, .flexible-content .flex-text, .post-type-archive-product .post-code, .post-type-archive-product .all-categories .option-top, .post-type-archive-product .all-categories .woo-category, .woocommerce-page .woocommerce {
   margin-left: auto;
   margin-right: auto;
   width: 550px;
 }
 @media only screen and (max-width: 600px) {
-  ._basic-width, .woocommerce-page .woocommerce, .post-type-archive-product .all-categories .woo-category, .post-type-archive-product .all-categories .option-top, .post-type-archive-product .post-code, .flexible-content .flex-text, .footer-main {
+  ._basic-width, .footer-main, .flexible-content .flex-text, .post-type-archive-product .post-code, .post-type-archive-product .all-categories .option-top, .post-type-archive-product .all-categories .woo-category, .woocommerce-page .woocommerce {
     width: calc(100% - 40px);
   }
 }
@@ -13,11 +13,11 @@ html,
 * {
   margin: 0px;
   padding: 0px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 body {
-  font-family: "Futura Md BT";
+  font-family: 'Futura Md BT';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -30,6 +30,10 @@ li {
 
 a {
   color: #333333;
+}
+
+thead {
+  display: none;
 }
 
 textarea,
@@ -66,15 +70,15 @@ strong {
 
 input:-webkit-autofill {
   border: none !important;
-  -webkit-text-fill-color: #bebebe !important;
-  background-color: #bebebe !important;
+  -webkit-text-fill-color: #efefef !important;
+  background-color: #efefef !important;
   -webkit-box-shadow: none;
   transition: background-color 5000s ease-in-out 0s;
 }
 
 input {
   border: 0px;
-  color: #bebebe !important;
+  color: #efefef !important;
 }
 
 fieldset {
@@ -124,9 +128,9 @@ select {
   * Correct the inability to style clickable types in iOS and Safari.
   */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   -webkit-appearance: button;
   border: 0px;
@@ -141,7 +145,7 @@ mark {
 
 address {
   font-style: normal;
-  color: #ababab;
+  color: #aaaaaa;
 }
 
 button,
@@ -149,7 +153,7 @@ select {
   text-transform: none;
   background: none;
   border: none;
-  color: #bebebe !important;
+  color: #efefef !important;
 }
 
 #customer_details .col-1 {
@@ -167,11 +171,11 @@ select {
 }
 .woocommerce-additional-fields__field-wrapper .woocommerce-input-wrapper textarea {
   border: none;
-  color: #bebebe;
+  color: #efefef;
 }
 
 ::placeholder {
-  color: #bebebe;
+  color: #efefef;
 }
 
 .shop_table.woocommerce-checkout-review-order-table .product-name {
@@ -209,6 +213,165 @@ select {
   padding-bottom: 0px !important;
 }
 
+#billing_first_name {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_last_name {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_company {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_country {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_address_1 {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_address_2 {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_postcode {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_city {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_state {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_phone {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#billing_email {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#order_comments {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+.woocommerce-additional-fields h3 {
+  display: none;
+}
+
+#username {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#password {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#user_login {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#account_first_name {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#account_last_name {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+.clear {
+  display: none;
+}
+
+#account_email {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+fieldset {
+  display: none;
+}
+
+#password_current {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#password_1 {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
+#password_2 {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -243,7 +406,7 @@ select {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #bebebe;
+  background-color: #efefef;
 }
 
 .hamburger-box {
@@ -264,7 +427,7 @@ select {
 .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #bebebe;
+  background-color: #efefef;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -1389,7 +1552,7 @@ select {
   border-top: solid 1px grey;
 }
 .mobile-slide li a {
-  color: #bebebe;
+  color: #efefef;
 }
 
 .nav-mobile {
@@ -1406,7 +1569,7 @@ select {
   display: none;
 }
 .cart-mobile a {
-  color: #ababab;
+  color: #aaaaaa;
 }
 @media only screen and (max-width: 600px) {
   .cart-mobile {
@@ -1419,8 +1582,8 @@ select {
   }
 }
 
-._h1, .woocommerce, .post-type-archive-product .all-categories, .post-type-archive-product input, .post-type-archive-product .post-code .post-code-function .post-code-number, .post-type-archive-product .post-code, .postcode-not-ok .message, .flexible-content .flex-text, h2, h3, input {
-  font-family: "Futura Md BT";
+._h1, input, h3, h2, .flexible-content .flex-text, .postcode-not-ok .message, .post-type-archive-product .post-code, .post-type-archive-product .post-code .post-code-function .post-code-number, .post-type-archive-product input, .post-type-archive-product .all-categories, .woocommerce {
+  font-family: 'Futura Md BT';
   font-size: 20px;
   line-height: 1.35;
   font-weight: 100;
@@ -1430,7 +1593,7 @@ select {
 }
 
 ._h2, .nav-main, .nav-category, .nav-cart {
-  font-family: "Futura Md BT";
+  font-family: 'Futura Md BT';
   font-size: 16px;
   font-weight: 100;
   line-height: 1.15;
@@ -1438,8 +1601,8 @@ select {
   color: #333333;
 }
 
-._h3, .account-orders-table, .footer-main {
-  font-family: "Futura Md BT";
+._h3, .footer-main, .account-orders-table {
+  font-family: 'Futura Md BT';
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
@@ -1449,7 +1612,7 @@ select {
 }
 
 ._h0, .homepage .desktop .title {
-  font-family: "Futura Bk BT";
+  font-family: 'Futura Bk BT';
   font-size: 21vh;
   letter-spacing: 4vh;
   line-height: 20vh;
@@ -1524,7 +1687,7 @@ h2 {
   display: flex;
 }
 .post-type-archive-product .post-code .post-code-function .post-code-number {
-  color: #bebebe;
+  color: #efefef;
 }
 .post-type-archive-product .post-code .post-code-function .check {
   cursor: pointer;
@@ -1564,7 +1727,7 @@ h2 {
   padding-bottom: 80px;
 }
 .post-type-archive-product .all-categories .woo-product-description {
-  color: #ababab;
+  color: #aaaaaa;
 }
 .post-type-archive-product .all-categories .woocommerce-loop-product__link img {
   display: none;
@@ -1601,6 +1764,27 @@ h2 {
 }
 .woocommerce-page .woocommerce div {
   padding-bottom: 50px;
+}
+
+.woocommerce-MyAccount-navigation-link--downloads {
+  display: none;
+}
+
+.woocommerce-info {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+  grid-auto-flow: dense;
+}
+
+address {
+  color: #111111;
+}
+
+.flex-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
 }
 
 .page-template-page-home .header-columns {
@@ -1707,6 +1891,7 @@ h2 {
 .woocommerce-MyAccount-content input {
   display: inline;
   width: 50%;
+  color: #efefef;
 }
 .woocommerce-MyAccount-content a {
   color: #e8361b;
@@ -1718,8 +1903,9 @@ h2 {
 }
 
 .cart-collaterals {
-  margin-top: 100px;
+  margin-top: 50px;
   border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .cart-collaterals th {
   text-align: left;
@@ -1733,7 +1919,7 @@ h2 {
 }
 
 tr {
-  height: 50px;
+  height: 25px;
 }
 
 th {
@@ -1774,7 +1960,7 @@ td {
 
 .product-remove {
   margin-right: 20px;
-  display: table;
+  display: none;
 }
 
 .product-quantity {
@@ -1842,6 +2028,25 @@ td {
 
 .woocommerce-page .woocommerce div {
   padding-bottom: 50px;
+}
+
+.cart-totals h2 {
+  display: none;
+}
+
+.cart-totals {
+  padding-top: 20px;
+}
+
+.actions {
+  margin-top: 50px;
+}
+
+#coupon_code {
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=combine.min.css.map */

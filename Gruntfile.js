@@ -69,9 +69,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
 
     grunt.registerTask('default', [
-        'shell',
+        // 'shell',
         'sass',
-        'concat',
+        // 'concat',
         'copy'
     ]);
 
