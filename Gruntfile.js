@@ -71,8 +71,8 @@ module.exports = function (grunt) {
     grunt.registerTask('default', [
         // 'shell',
         'sass',
-        // 'concat',
-        'copy'
+        'concat',
+        // 'copy'
     ]);
 
 };
