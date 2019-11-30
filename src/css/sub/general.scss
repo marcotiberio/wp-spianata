@@ -63,7 +63,7 @@ strong {
 
 input:-webkit-autofill {
 	border: none !important;
-	-webkit-text-fill-color: $light-grey  !important;
+	-webkit-text-fill-color: $dark-grey  !important;
 	background-color: $light-grey !important;
 	-webkit-box-shadow: none;
 	transition: background-color 5000s ease-in-out 0s;
@@ -72,7 +72,7 @@ input:-webkit-autofill {
 input {
 	border: 0px;
 	@extend ._h1;
-	color: $light-grey !important;
+	color: $dark-grey !important;
 
 }
 

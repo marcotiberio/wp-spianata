@@ -29,7 +29,7 @@ li {
 }
 
 a {
-  color: #333333;
+  color: #777777;
 }
 
 thead {
@@ -70,7 +70,7 @@ strong {
 
 input:-webkit-autofill {
   border: none !important;
-  -webkit-text-fill-color: #efefef !important;
+  -webkit-text-fill-color: #777777 !important;
   background-color: #efefef !important;
   -webkit-box-shadow: none;
   transition: background-color 5000s ease-in-out 0s;
@@ -78,7 +78,7 @@ input:-webkit-autofill {
 
 input {
   border: 0px;
-  color: #efefef !important;
+  color: #777777 !important;
 }
 
 fieldset {
@@ -1530,7 +1530,7 @@ fieldset {
 }
 
 .current-menu-item a:hover {
-  color: #333333 !important;
+  color: #777777 !important;
 }
 .current-menu-item a {
   color: #e8361b !important;
@@ -1598,7 +1598,7 @@ fieldset {
   font-weight: 100;
   line-height: 1.15;
   letter-spacing: 0.01em;
-  color: #333333;
+  color: #777777;
 }
 
 ._h3, .footer-main, .account-orders-table {
@@ -1608,7 +1608,7 @@ fieldset {
   line-height: 1.4;
   letter-spacing: 0.02em;
   text-indent: 0em;
-  color: #333333;
+  color: #777777;
 }
 
 ._h0, .homepage .desktop .title {
@@ -1963,7 +1963,7 @@ td {
 }
 
 .product-quantity {
-  width: 25%;
+  width: 15%;
 }
 .product-quantity .screen-reader-text {
   display: none !important;
@@ -1974,11 +1974,11 @@ td {
 }
 
 .product-subtotal {
-  width: 13%;
+  width: 15%;
 }
 
 .product-name {
-  width: 28%;
+  width: 50%;
 }
 
 .quantity .input-text {
@@ -2052,6 +2052,7 @@ td {
   text-align: right;
   border-top: 1px solid black;
   margin-top: 20px;
+  padding-top: 10px;
 }
 
 .order-total td {
