@@ -1905,7 +1905,6 @@ address {
 .cart-collaterals {
   margin-top: 50px;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 .cart-collaterals th {
   text-align: left;
@@ -2047,6 +2046,10 @@ td {
   background-color: #efefef;
   border: none;
   margin: 10px 0;
+}
+
+.wc-proceed-to-checkout {
+  text-align: right;
 }
 
 /*# sourceMappingURL=combine.min.css.map */

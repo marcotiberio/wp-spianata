@@ -56,7 +56,6 @@
 .cart-collaterals {
     margin-top: 50px;               // EDIT
     border-top: 1px solid black;
-    border-bottom: 1px solid black;     // EDIT
 
     th {
         text-align: left;
@@ -220,5 +219,8 @@ padding-top: 17px;
     background-color: #efefef;
     border:  none;
     margin: 10px 0;
+}
 
+.wc-proceed-to-checkout {
+    text-align: right;
 }
