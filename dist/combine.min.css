@@ -2021,10 +2021,6 @@ td {
   padding-top: 8px !important;
 }
 
-.woocommerce-cart-form {
-  padding-top: 17px;
-}
-
 .woocommerce-billing-fields h3 {
   margin-bottom: 20px;
 }
@@ -2043,6 +2039,10 @@ td {
 
 .cart_totals h2 {
   display: none !important;
+}
+
+.cart_totals {
+  padding-top: 20px;
 }
 
 .actions {
