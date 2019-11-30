@@ -336,6 +336,13 @@ select {
   border: none;
 }
 
+#account_display_name {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+}
+
 .clear {
   display: none;
 }
