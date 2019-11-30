@@ -1798,6 +1798,10 @@ address {
   width: 550px;
 }
 
+.button .woocommerce-form-login__submit {
+  text-align: left !important;
+}
+
 .page-template-page-home .header-columns {
   display: none !important;
 }
