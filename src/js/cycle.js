@@ -17,7 +17,7 @@ jQuery(document).ready(function ($) {
 });
 
 
-$('ajax_add_to_cart').click(function() {
+$('.ajax_add_to_cart').click(function() {
     var self = $(this);
     if (!self.data('add')) {
         self.data('add', true);
