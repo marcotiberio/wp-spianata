@@ -2033,7 +2033,7 @@ td {
   display: none !important;
 }
 
-.cart-totals {
+.cart_totals {
   padding-top: 20px;
 }
 
@@ -2050,6 +2050,8 @@ td {
 
 .wc-proceed-to-checkout {
   text-align: right;
+  border-top: 1px solid black;
+  margin-top: 20px;
 }
 
 .order-total td {
