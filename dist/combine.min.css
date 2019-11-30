@@ -379,6 +379,10 @@ fieldset {
   border: none;
 }
 
+.woocommerce-form-row span {
+  display: none !important;
+}
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
