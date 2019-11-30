@@ -2079,4 +2079,8 @@ td {
   margin-top: 20px;
 }
 
+.cart-discount td {
+  text-align: right !important;
+}
+
 /*# sourceMappingURL=combine.min.css.map */
