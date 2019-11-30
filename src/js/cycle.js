@@ -15,3 +15,10 @@ jQuery(document).ready(function ($) {
         duplicated: true
     });
 });
+
+
+$(document).on("click", "add_to_cart_button ajax_add_to_cart", function() {   
+    var Path = $('.add-to-cart').html("Added!");           
+    var success = function() { alert("Successful"); };     
+    var error = function(message) { alert("Oopsie! " + message); };
+});
