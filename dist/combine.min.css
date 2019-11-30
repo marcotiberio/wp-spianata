@@ -1799,6 +1799,7 @@ address {
 }
 
 .button .woocommerce-form-login__submit {
+  display: grid;
   text-align: left !important;
 }
 
