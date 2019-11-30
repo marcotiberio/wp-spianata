@@ -15,13 +15,3 @@ jQuery(document).ready(function ($) {
         duplicated: true
     });
 });
-
-var node = document.getElementsByClassName('ajax_add_to_cart')[0];
-
-node.onmouseover = function(e) {
- node.innerHTML = "Don't move!";
-}
-
-node.onmouseout = function(e) {
-  node.innerHTML = "Hover";
-}
