@@ -1933,6 +1933,7 @@ td {
 
 .shop_table {
   width: 100%;
+  margin-top: 20px;
 }
 
 .shop_table {
@@ -2065,6 +2066,10 @@ td {
 
 .product-total {
   text-align: right !important;
+}
+
+.woocommerce-checkout-payment {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=combine.min.css.map */
