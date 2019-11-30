@@ -33,7 +33,10 @@ address {
     width: 550px;
 }
 
-.button .woocommerce-form-login__submit {
+.form-row {
     display: grid;
+}
+
+.button .woocommerce-form-login__submit {
     text-align: left !important;
 }
