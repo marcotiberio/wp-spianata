@@ -2030,7 +2030,7 @@ td {
 }
 
 .cart-totals h2 {
-  display: none;
+  display: none !important;
 }
 
 .cart-totals {
@@ -2050,6 +2050,14 @@ td {
 
 .wc-proceed-to-checkout {
   text-align: right;
+}
+
+.order-total td {
+  text-align: right !important;
+}
+
+.cart-subtotal td {
+  text-align: right !important;
 }
 
 /*# sourceMappingURL=combine.min.css.map */
