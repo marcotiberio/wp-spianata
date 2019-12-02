@@ -1806,6 +1806,10 @@ address {
   text-align: left !important;
 }
 
+.woocommerce-message {
+  display: none;
+}
+
 .page-template-page-home .header-columns {
   display: none !important;
 }
