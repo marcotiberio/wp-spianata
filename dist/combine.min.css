@@ -1807,7 +1807,7 @@ address {
 }
 
 .woocommerce-message {
-  display: none;
+  display: none !important;
 }
 
 .page-template-page-home .header-columns {
