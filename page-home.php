@@ -45,8 +45,11 @@ $loop = 30;
     </div>
 
     <section class="homepage-image">
-        <?php if( get_field('spianata_image') ): ?>
-            <img src="<?php echo get_template_directory_uri()?>/assets/svg/bakery.jpg" alt="">
+            <?php 
+
+        $image = get_field('spianata_image');
+        if( !empty($image) ): ?>
+            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
         <?php endif; ?>
     </section>
 
