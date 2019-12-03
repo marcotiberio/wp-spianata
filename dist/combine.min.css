@@ -1827,21 +1827,9 @@ address {
   background: #111111 !important;
 }
 
-.homepage .homepage-image {
-  height: 55vh;
+.homepage #homepage-image {
+  height: 60vh;
   margin: 0 20px;
-}
-.homepage #spianata-image {
-  display: none;
-}
-.homepage #catering-image {
-  display: none;
-}
-.homepage #classes-image {
-  display: none;
-}
-.homepage #instagram-image {
-  display: none;
 }
 .homepage .desktop {
   margin-top: 15px;
