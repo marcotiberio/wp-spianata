@@ -1832,6 +1832,7 @@ address {
 .homepage .desktop .title {
   color: white;
   width: 100vw;
+  padding-left: 20px;
   font-family: 'Futura Md BT';
   font-size: 60px;
   letter-spacing: 0.02em;
