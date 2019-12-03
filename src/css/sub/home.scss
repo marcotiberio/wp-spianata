@@ -40,15 +40,20 @@
             }
         }
 
-        .move-left .inner {
-            position: relative;
-            left: -97%;
+        .homepage-image {
+            width: 90vw;
+            border: 1px solid white;
         }
 
-        .move-right .inner {
-            position: relative;
-            left: 97%;
-        }
+        // .move-left .inner {
+        //     position: relative;
+        //     left: -97%;
+        // }
+
+        // .move-right .inner {
+        //     position: relative;
+        //     left: 97%;
+        // }
 
         @media only screen and (max-width: $break-phone) {
             display: none;
@@ -57,7 +62,7 @@
 
     .homepage-image {
         width: 100vw;
-        border: 1px soldi white;
+        border: 1px solid white;
     }
 
     .mobile {

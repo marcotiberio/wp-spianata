@@ -1850,13 +1850,9 @@ address {
   color: #e8361b;
   transition: 0.2s ease;
 }
-.homepage .desktop .move-left .inner {
-  position: relative;
-  left: -97%;
-}
-.homepage .desktop .move-right .inner {
-  position: relative;
-  left: 97%;
+.homepage .desktop .homepage-image {
+  width: 90vw;
+  border: 1px solid white;
 }
 @media only screen and (max-width: 600px) {
   .homepage .desktop {
@@ -1865,7 +1861,7 @@ address {
 }
 .homepage .homepage-image {
   width: 100vw;
-  border: 1px soldi white;
+  border: 1px solid white;
 }
 .homepage .mobile {
   display: none;
