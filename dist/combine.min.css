@@ -1829,10 +1829,18 @@ address {
 
 .homepage .homepage-image {
   height: 60vh;
-  border: 1px solid white;
   margin: 0 20px;
 }
 .homepage #spianata-image {
+  display: none;
+}
+.homepage #catering-image {
+  display: none;
+}
+.homepage #classes-image {
+  display: none;
+}
+.homepage #instagram-image {
   display: none;
 }
 .homepage .desktop {
