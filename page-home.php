@@ -10,9 +10,9 @@ $loop = 30;
 
     <div class="desktop">
 
-        <a href="<?php echo esc_url( get_page_link(6) ); ?>" class="title move-left">
-            <div class="title-inside marquee">
-                <div class="inner">
+        <a href="<?php echo esc_url( get_page_link(6) ); ?>">
+            <div class="">
+                <div class="">
                     <?php for ($i = 1; $i <= $loop; $i++) { ?>
                         SPIANATA
                     <?php } ?>
