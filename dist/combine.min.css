@@ -1829,7 +1829,7 @@ address {
 
 .homepage .homepage-image {
   height: 60vh;
-  margin: 20px 20px;
+  margin: 0 20px !important;
 }
 .homepage .desktop {
   margin-top: 15px;
