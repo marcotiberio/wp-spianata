@@ -46,27 +46,17 @@ $loop = 30;
 
     <?php 
     $image = get_field('spianata_image');
+    $image = get_field('catering_image');
+    $image = get_field('classes_image');
+    $image = get_field('instagram_image');
+
     if( !empty($image) ): ?>
         <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $image['url']; ?>');">
-    <?php endif; ?>
-
-    <?php 
-    $image = get_field('catering_image');
-    if( !empty($image) ): ?>
         <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $image['url']; ?>');">
-    <?php endif; ?>
-
-    <?php 
-    $image = get_field('classes_image');
-    if( !empty($image) ): ?>
         <div class="homepage-image" id="classes-image" style="background-image:url('<?php echo $image['url']; ?>');">
-    <?php endif; ?>
-
-    <?php 
-    $image = get_field('instagram_image');
-    if( !empty($image) ): ?>
         <div class="homepage-image" id="instagram-image" style="background-image:url('<?php echo $image['url']; ?>');">
     <?php endif; ?>
+
 
 
 
