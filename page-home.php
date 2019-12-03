@@ -13,7 +13,7 @@ $loop = 30;
         <a href="<?php echo esc_url( get_page_link(6) ); ?>"  class="">
             <div class="">
                 <div class="">
-                    SPIANATA
+                    SPIANATA BAKERY
                 </div>
             </div>
         </a>
@@ -21,7 +21,7 @@ $loop = 30;
         <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="">
             <div class="">
                 <div class="">
-                    DELIVERY
+                    CATERING
                 </div>
             </div>
         </a>
@@ -29,7 +29,7 @@ $loop = 30;
         <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="">
             <div class="">
                 <div class="">
-                    BREAD MAKING
+                    BAKERY CLASSES
                 </div>
             </div>
         </a>
@@ -42,13 +42,6 @@ $loop = 30;
             </div>
         </a>
 
-        <a href="https://twitter.com/spianatabakery" target="_blank" class="">
-            <div class="">
-                <div class="">
-                    TWITTER
-                </div>
-            </div>
-        </a>
     </div>
 
 
