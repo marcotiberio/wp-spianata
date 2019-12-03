@@ -10,7 +10,7 @@ $loop = 30;
 
     <div class="desktop">
 
-        <a href="<?php echo esc_url( get_page_link(6) ); ?>"  class="">
+        <a href="<?php echo esc_url( get_page_link(6) ); ?>"  class="title">
             <div class="">
                 <div class="">
                     SPIANATA BAKERY
@@ -18,7 +18,7 @@ $loop = 30;
             </div>
         </a>
 
-        <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="">
+        <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="title">
             <div class="">
                 <div class="">
                     CATERING
@@ -26,7 +26,7 @@ $loop = 30;
             </div>
         </a>
 
-        <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="">
+        <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="title">
             <div class="">
                 <div class="">
                     BAKERY CLASSES
@@ -34,7 +34,7 @@ $loop = 30;
             </div>
         </a>
 
-        <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="">
+        <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title">
             <div class="">
                 <div class="">
                     INSTAGRAM
