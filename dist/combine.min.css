@@ -1631,7 +1631,7 @@ fieldset {
   color: #777777;
 }
 
-._h0, .homepage .desktop .title {
+._h0, .homepage .desktop .desktop-title .title {
   font-family: 'Futura Bk BT';
   font-size: 21vh;
   letter-spacing: 4vh;
@@ -1827,18 +1827,17 @@ address {
   background: #111111 !important;
 }
 
-.homepage .homepage-image {
-  height: 60vh;
-  margin: 0 20px !important;
-}
 .homepage .desktop {
   margin-top: 15px;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  height: 100vh;
+}
+.homepage .desktop .desktop-title {
   height: 30vh;
 }
-.homepage .desktop .title {
+.homepage .desktop .desktop-title .title {
   color: white;
   font-family: 'Futura Md BT';
   font-size: 60px;
@@ -1846,13 +1845,17 @@ address {
   color: #777777;
   line-height: 1em;
 }
-.homepage .desktop .title-inside {
+.homepage .desktop .desktop-title .title-inside {
   width: fit-content;
   overflow: hidden;
 }
-.homepage .desktop .title-inside:hover {
+.homepage .desktop .desktop-title .title-inside:hover {
   color: #e8361b;
   transition: 0.2s ease;
+}
+.homepage .desktop .homepage-image {
+  height: 60vh;
+  margin: 0 20px !important;
 }
 @media only screen and (max-width: 600px) {
   .homepage .desktop {
