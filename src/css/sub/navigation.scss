@@ -86,10 +86,11 @@
         font-size: 20px;
         letter-spacing: 0.15em;
         color: $black;
-    }
 
-    p:hover {
-        color: $red;
+        &:hover {
+            color: $red;
+            transition: 0.2s;
+        }
     }
 
     a {

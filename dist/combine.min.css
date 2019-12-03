@@ -1500,6 +1500,7 @@ fieldset {
 }
 .backhome p:hover {
   color: #e8361b;
+  transition: 0.2s;
 }
 .backhome a {
   position: relative;
@@ -1840,7 +1841,7 @@ address {
   line-height: 1.2em;
 }
 .homepage .desktop .title-inside {
-  width: 200vw;
+  width: fit-content;
   overflow: hidden;
 }
 .homepage .desktop .title-inside:hover {
