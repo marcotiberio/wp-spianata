@@ -1488,10 +1488,15 @@ fieldset {
 
 .backhome {
   position: fixed;
-  font-size: 10px;
   left: 20px;
   bottom: 29px;
   z-index: 10;
+}
+.backhome p {
+  font-family: 'Futura Md BT';
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  color: #111111;
 }
 .backhome a {
   position: relative;

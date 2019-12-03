@@ -29,6 +29,7 @@
 
     <div class="backhome">
         <a href="<?php echo esc_url( get_page_link(183) ); ?>">
+            <p>SPIANATA</p>
             <img class="red" src="<?php echo get_template_directory_uri()?>/assets/svg/spianata-hover.svg" alt="">         
             <img class="white" src="<?php echo get_template_directory_uri()?>/assets/svg/spianata.svg" alt="">  
         </a>

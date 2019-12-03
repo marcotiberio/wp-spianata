@@ -76,10 +76,17 @@
 
 .backhome {
     position: fixed;
-    font-size: 10px;
+    // font-size: 10px;
     left: $m-padding;
     bottom: 29px;
     z-index: 10;
+
+    p {
+        font-family: 'Futura Md BT';
+        font-size: 20px;
+        letter-spacing: 0.15em;
+        color: $black;
+    }
 
     a {
 
