@@ -1829,8 +1829,9 @@ address {
 
 .homepage .desktop {
   margin-top: 5px;
+  margin-right: 20px;
   margin-left: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
 }
 .homepage .desktop .title {
   color: white;
@@ -1846,7 +1847,7 @@ address {
 }
 .homepage .desktop .title-inside:hover {
   color: #e8361b;
-  transition: 0.2s;
+  transition: 0.2s ease;
 }
 .homepage .desktop .move-left .inner {
   position: relative;
