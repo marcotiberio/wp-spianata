@@ -10,7 +10,7 @@ $loop = 30;
 
     <div class="desktop">
 
-        <a href="<?php echo esc_url( get_page_link(6) ); ?>">
+        <a href="<?php echo esc_url( get_page_link(6) ); ?>"  class="">
             <div class="">
                 <div class="">
                     SPIANATA
@@ -18,42 +18,34 @@ $loop = 30;
             </div>
         </a>
 
-        <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="title move-right">
-            <div class="title-inside marquee">
-                <div class="inner">
-                    <?php for ($i = 1; $i <= $loop; $i++) { ?>
-                        DELIVERY
-                    <?php } ?>
+        <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="">
+            <div class="">
+                <div class="">
+                    DELIVERY
                 </div>
             </div>
         </a>
 
-        <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="title move-left">
-            <div class="title-inside marquee">
-                <div class="inner">
-                    <?php for ($i = 1; $i <= $loop; $i++) { ?>
-                        BREAD MAKING
-                    <?php } ?>
+        <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="">
+            <div class="">
+                <div class="">
+                    BREAD MAKING
                 </div>
             </div>
         </a>
 
-        <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title move-right">
-            <div class="title-inside marquee">
-                <div class="inner">
-                    <?php for ($i = 1; $i <= $loop; $i++) { ?>
-                        INSTAGRAM
-                    <?php } ?>
+        <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="">
+            <div class="">
+                <div class="">
+                    INSTAGRAM
                 </div>
             </div>
         </a>
 
-        <a href="https://twitter.com/spianatabakery" target="_blank" class="title move-left">
-            <div class="title-inside marquee">
-                <div class="inner">
-                    <?php for ($i = 1; $i <= $loop; $i++) { ?>
-                        TWITTER
-                    <?php } ?>
+        <a href="https://twitter.com/spianatabakery" target="_blank" class="">
+            <div class="">
+                <div class="">
+                    TWITTER
                 </div>
             </div>
         </a>
