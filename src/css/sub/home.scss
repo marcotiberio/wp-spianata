@@ -10,13 +10,20 @@
 
 .homepage {
 
+    .homepage-image {
+        width: 100vw;
+        height: 50vh;
+        border: 1px solid white;
+        margin: 0 !important;
+    }
+
 
     .desktop {
         margin-top: 5px;
         margin-right: 20px;
         margin-left: 20px;
         margin-bottom: 20px;
-        height: 100vh;
+        height: 40vh;
 
         .title {
             @extend ._h0;
@@ -40,11 +47,6 @@
             }
         }
 
-        .homepage-image {
-            width: 90vw;
-            border: 1px solid white;
-        }
-
         // .move-left .inner {
         //     position: relative;
         //     left: -97%;
@@ -60,10 +62,6 @@
         }
     }
 
-    .homepage-image {
-        width: 100vw;
-        border: 1px solid white;
-    }
 
     .mobile {
         display: none;
