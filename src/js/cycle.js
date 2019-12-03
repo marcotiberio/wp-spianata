@@ -1,3 +1,3 @@
 jQuery(document).ready(function ($) {
-    $("#spianata-title").hover( function() { $("#homepage-image").toggle(); } );
+    $("#spianata-title").hover( function() { $("#homepage-image").hide(); } );
 });

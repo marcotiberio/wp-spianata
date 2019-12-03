@@ -1828,9 +1828,8 @@ address {
 }
 
 .homepage #homepage-image {
-  display: none;
   height: 55vh;
-  margin: 0 20px;
+  margin: 20px 20px;
 }
 .homepage .desktop {
   margin-top: 15px;
