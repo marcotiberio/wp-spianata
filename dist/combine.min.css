@@ -1828,6 +1828,8 @@ address {
 
 .homepage .desktop {
   margin-bottom: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .homepage .desktop .title {
   color: white;
