@@ -1489,7 +1489,7 @@ fieldset {
 .backhome {
   position: fixed;
   left: 20px;
-  bottom: 29px;
+  bottom: 20px;
   z-index: 10;
 }
 .backhome p {
@@ -1497,6 +1497,9 @@ fieldset {
   font-size: 20px;
   letter-spacing: 0.15em;
   color: #111111;
+}
+.backhome p:hover {
+  color: #e8361b;
 }
 .backhome a {
   position: relative;
