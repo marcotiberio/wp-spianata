@@ -46,11 +46,9 @@
         }
 
         .homepage-image {
-            // display: none;
-            // width: 100vw;
+            display: none;
             height: 60vh;
-            // border: 1px solid white;
-            margin: 20px 0 !important;
+            margin: 25px 0 !important;
         }
 
         // .move-left .inner {
@@ -89,6 +87,7 @@
 }
 
 .homepage-footer {
+    display: none;
     color: white !important;
     display: flex;
     position: fixed;
