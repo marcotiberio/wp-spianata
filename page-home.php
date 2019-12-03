@@ -13,9 +13,7 @@ $loop = 30;
         <a href="<?php echo esc_url( get_page_link(6) ); ?>">
             <div class="">
                 <div class="">
-                    <?php for ($i = 1; $i <= $loop; $i++) { ?>
-                        SPIANATA
-                    <?php } ?>
+                    SPIANATA
                 </div>
             </div>
         </a>
