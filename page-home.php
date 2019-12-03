@@ -44,14 +44,14 @@ $loop = 30;
 
     </div>
 
-    <section class="homepage-image">
+    <!-- <section class="homepage-image"> -->
             <?php 
 
         $image = get_field('spianata_image');
         if( !empty($image) ): ?>
-            <div style="background-image:url('<?php echo $image['url']; ?>');">
+            <div class="homepage-image" style="background-image:url('<?php echo $image['url']; ?>');">
         <?php endif; ?>
-    </section>
+    <!-- </section> -->
 
 
 
