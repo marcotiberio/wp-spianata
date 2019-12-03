@@ -1863,6 +1863,10 @@ address {
     display: none;
   }
 }
+.homepage .homepage-image {
+  width: 100vw;
+  border: 1px soldi white;
+}
 .homepage .mobile {
   display: none;
 }

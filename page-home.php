@@ -42,7 +42,9 @@ $loop = 30;
             </div>
         </a>
 
-        
+        <section class="homepage-image">
+
+        </section>
 
     </div>
 
