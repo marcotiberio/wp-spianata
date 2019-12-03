@@ -1879,7 +1879,7 @@ address {
 .homepage-footer {
   color: white !important;
   display: flex;
-  position: relative;
+  position: fixed;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
