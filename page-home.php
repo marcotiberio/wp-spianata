@@ -12,7 +12,7 @@ $loop = 30;
 
         <a href="<?php echo esc_url( get_page_link(6) ); ?>"  class="title">
             <div class="title-inside">
-                <div class="">
+                <div id="spianata-title">
                     SPIANATA BAKERY
                 </div>
             </div>
@@ -20,7 +20,7 @@ $loop = 30;
 
         <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="title">
             <div class="title-inside">
-                <div class="">
+                <div id="catering-title">
                     CATERING
                 </div>
             </div>
@@ -28,7 +28,7 @@ $loop = 30;
 
         <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="title">
             <div class="title-inside">
-                <div class="">
+                <div id="classes-title">
                     BAKERY CLASSES
                 </div>
             </div>
@@ -36,7 +36,7 @@ $loop = 30;
 
         <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title">
             <div class="title-inside">
-                <div class="">
+                <div id="instagram-title">
                     INSTAGRAM
                 </div>
             </div>
@@ -44,14 +44,11 @@ $loop = 30;
 
     </div>
 
-    <!-- <section class="homepage-image"> -->
-            <?php 
-
+        <?php 
         $image = get_field('spianata_image');
         if( !empty($image) ): ?>
-            <div class="homepage-image" style="background-image:url('<?php echo $image['url']; ?>');">
+            <div id="homepage-image" style="background-image:url('<?php echo $image['url']; ?>');">
         <?php endif; ?>
-    <!-- </section> -->
 
 
 
@@ -88,3 +85,7 @@ $loop = 30;
         Spianata & Co llc
     </div>
 </div>
+
+<script>
+    $("#spianata-title").hover( function() { $("#homepage-image").hide(); } );
+</script>

@@ -1827,7 +1827,7 @@ address {
   background: #111111 !important;
 }
 
-.homepage .homepage-image {
+.homepage #homepage-image {
   height: 50vh;
   border: 1px solid white;
   margin: 0 20px;
