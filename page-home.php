@@ -44,12 +44,6 @@ $loop = 30;
 
     </div>
 
-    <?php 
-    $image = get_field('spianata_image');
-    if( !empty($image) ): ?>
-        <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $image['url']; ?>');">
-    <?php endif; ?>
-
 
 
     <div class="mobile">
@@ -73,6 +67,12 @@ $loop = 30;
             <img src="<?php echo get_template_directory_uri()?>/assets/svg/twitter.svg" alt="">               
         </a>
     </div>
+
+    <?php 
+    $image = get_field('spianata_image');
+    if( !empty($image) ): ?>
+        <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $image['url']; ?>');">
+    <?php endif; ?>
 
 </div>
 
