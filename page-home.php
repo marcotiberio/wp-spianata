@@ -47,7 +47,7 @@ $loop = 30;
         <?php 
         $image = get_field('spianata_image');
         if( !empty($image) ): ?>
-            <div id="homepage-image" style="background-image:url('<?php echo $image['url']; ?>');">
+            <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $image['url']; ?>');">
         <?php endif; ?>
 
 
