@@ -1828,16 +1828,16 @@ address {
 }
 
 .homepage #homepage-image {
-  height: 50vh;
+  height: 60vh;
   border: 1px solid white;
   margin: 0 20px;
 }
 .homepage .desktop {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
-  height: 40vh;
+  height: 30vh;
 }
 .homepage .desktop .title {
   color: white;
@@ -1845,7 +1845,7 @@ address {
   font-size: 60px;
   letter-spacing: 0.02em;
   color: #777777;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 .homepage .desktop .title-inside {
   width: fit-content;

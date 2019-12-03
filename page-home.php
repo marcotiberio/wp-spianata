@@ -85,7 +85,3 @@ $loop = 30;
         Spianata & Co llc
     </div>
 </div>
-
-<script>
-    $("#spianata-title").hover( function() { $("#homepage-image").hide(); } );
-</script>
