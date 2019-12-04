@@ -8,6 +8,9 @@ $loop = 30;
 <?php
 $symbol = get_field('spianata_symbol');
 $imagespianata = get_field('spianata_image');
+$imagecatering = get_field('catering_image');
+$imageclasses = get_field('classes_image');
+$imageinstagram = get_field('instagram_image');
 ?>
 
 
@@ -62,6 +65,12 @@ $imagespianata = get_field('spianata_image');
         
 
         <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $imagespianata['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="homepage-image" id="classes-image" style="background-image:url('<?php echo $imageclasses['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="homepage-image" id="instagram-image" style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
 
     </div>

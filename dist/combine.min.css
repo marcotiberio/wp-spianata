@@ -1854,6 +1854,7 @@ address {
   transition: 0.2s ease;
 }
 .homepage .desktop .homepage-image {
+  display: none;
   height: 50vh;
   margin: 35px 0 !important;
 }
