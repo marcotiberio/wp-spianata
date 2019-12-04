@@ -90,7 +90,7 @@ $imagemobile = get_field('mobile_image');
     <div class="mobile">
         <div class="title">
             <div class="title-inside">
-                <div id="spianata-symbol">
+                <div id="spianata-symbol-mobile">
                     <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
                 </div>
             </div>

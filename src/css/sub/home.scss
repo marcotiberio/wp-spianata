@@ -104,10 +104,17 @@
             height: 100vh;
         }
 
-        img {
-            width: 100%;
-            height: auto;
+        #spianata-symbol-mobile {
+            @media only screen and (max-width: $break-phone) {
+                height: 50% !important;
+                width: 50% !important;
+            }
         }
+
+        // img {
+        //     width: 50%;
+        //     height: auto;
+        // }
     }
 
     @media only screen and (max-width: $break-phone) {
