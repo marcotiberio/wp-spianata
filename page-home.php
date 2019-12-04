@@ -5,6 +5,10 @@ get_header();
 $loop = 30;
 ?>
 
+<?php
+$image = get_field('spianata_image');
+?>
+
 
 <div class="inside-normal homepage">
 
@@ -58,11 +62,11 @@ $loop = 30;
 
         </div>
 
-        <?php 
-        $image = get_field('spianata_image');
-        if( !empty($image) ): ?>
-            <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $image['url']; ?>');">
-        <?php endif; ?>
+        
+
+        <div class="homepage-image" id="spianata-image">
+            <img src="<?php echo $image[url]; ?>" alt="<?php echo $image[alt]; ?>">
+        </div>
 
     </div>
 
