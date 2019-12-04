@@ -12,6 +12,16 @@ $loop = 30;
 
         <div class="desktop-title">
 
+        <div class="title">
+            <div class="title-inside">
+                <div id="spianata-symbol">
+                <?php if( get_field('spianata_symbol') ): ?>
+                    <img src="<?php the_field('spianata_symbol'); ?>" />
+                <?php endif; ?>
+                </div>
+            </div>
+        </div>
+
         <a href="<?php echo esc_url( get_page_link(6) ); ?>"  class="title">
             <div class="title-inside">
                 <div id="spianata-title">
