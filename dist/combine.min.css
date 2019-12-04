@@ -1858,9 +1858,6 @@ address {
   color: #e8361b;
   transition: 0.2s ease;
 }
-.homepage .desktop .desktop-title #spianata-symbol-mobile {
-  display: none;
-}
 .homepage .desktop .homepage-image {
   display: none;
   height: 50vh;
