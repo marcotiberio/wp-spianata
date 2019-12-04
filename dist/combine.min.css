@@ -1833,7 +1833,7 @@ address {
   margin-left: 20px;
 }
 @media only screen and (max-width: 600px) {
-  .homepage .spianata-symbol {
+  .homepage .spianata-symbol .spianata-symbol img {
     width: 50% !important;
   }
 }
