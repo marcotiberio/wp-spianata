@@ -1831,7 +1831,11 @@ address {
   margin-top: 15px;
   margin-right: 20px;
   margin-left: 20px;
-  margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .homepage .spianata-symbol {
+    width: 50% !important;
+  }
 }
 .homepage .desktop {
   margin-top: 15px;
