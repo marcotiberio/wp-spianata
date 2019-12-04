@@ -1845,6 +1845,11 @@ address {
   color: #777777;
   line-height: 1em;
 }
+@media only screen and (max-width: 600px) {
+  .homepage .desktop .desktop-title .title {
+    font-size: 32px !important;
+  }
+}
 .homepage .desktop .desktop-title .title-inside {
   width: fit-content;
   overflow: hidden;
@@ -1857,11 +1862,6 @@ address {
   display: none;
   height: 50vh;
   margin: 35px 0 !important;
-}
-@media only screen and (max-width: 600px) {
-  .homepage .desktop .title {
-    font-size: 32px;
-  }
 }
 .homepage .mobile {
   display: none;

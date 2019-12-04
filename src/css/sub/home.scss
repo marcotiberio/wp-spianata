@@ -32,6 +32,11 @@
                 letter-spacing: 0.02em;
                 color: $dark-grey;
                 line-height: 1em;
+
+                @media only screen and (max-width: $break-phone) {
+                    // display: none;
+                    font-size: 32px !important;
+                }
             }
 
             .title-inside {
@@ -63,10 +68,6 @@
 
         @media only screen and (max-width: $break-phone) {
             // display: none;
-
-            .title {
-                font-size: 32px;
-            }
         }
     }
 
