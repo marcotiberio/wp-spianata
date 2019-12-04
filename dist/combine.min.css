@@ -1881,6 +1881,7 @@ address {
     display: block;
     font-size: 32px;
     margin: 20px;
+    height: 100vh;
   }
   .homepage .mobile .homepage-image-mobile {
     display: block;
