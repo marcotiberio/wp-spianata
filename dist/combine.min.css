@@ -1900,6 +1900,11 @@ address {
   width: 100%;
   height: auto;
 }
+@media only screen and (max-width: 600px) {
+  .homepage {
+    margin-top: 75px !important;
+  }
+}
 
 .homepage-footer {
   display: none !important;
