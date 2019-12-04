@@ -16,21 +16,17 @@ $imageinstagram = get_field('instagram_image');
 
 <div class="inside-normal homepage">
 
-    <div class="spianata-symbol">
-        <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
-    </div>
-
     <div class="desktop">
 
         <div class="desktop-title">
 
-        <!-- <div class="title">
+        <div class="title">
             <div class="title-inside">
                 <div id="spianata-symbol">
                     <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <a href="<?php echo esc_url( get_page_link(6) ); ?>"  class="title">
             <div class="title-inside">
