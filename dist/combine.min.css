@@ -1900,9 +1900,9 @@ address {
     height: 100vh;
   }
 }
-.homepage .mobile #spianata-symbol-mobile {
-  height: 50% !important;
-  width: 50% !important;
+.homepage .mobile img {
+  width: 50%;
+  height: auto;
 }
 
 .homepage-footer {
