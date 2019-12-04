@@ -1863,6 +1863,11 @@ address {
   height: 50vh;
   margin: 35px 0 !important;
 }
+@media only screen and (max-width: 600px) {
+  .homepage #spianata-symbol {
+    width: 50% !important;
+  }
+}
 .homepage .mobile {
   display: none;
 }
