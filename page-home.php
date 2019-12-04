@@ -11,6 +11,7 @@ $imagespianata = get_field('spianata_image');
 $imagecatering = get_field('catering_image');
 $imageclasses = get_field('classes_image');
 $imageinstagram = get_field('instagram_image');
+$imagemobile = get_field('mobile_image');
 ?>
 
 
