@@ -48,12 +48,10 @@
                     transition: 0.2s ease;
                 }
 
-                #spianata-symbol {
+            }
 
-                    @media only screen and (max-width: $break-phone) {
-                        width: 50% !important;
-                    }
-                }
+            #spianata-symbol-mobile {
+                display: none;
             }
         }
 

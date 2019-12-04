@@ -25,6 +25,9 @@ $imageinstagram = get_field('instagram_image');
                 <div id="spianata-symbol">
                     <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
                 </div>
+                <div id="spianata-symbol-mobile" style="width: 50%;">
+                    <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
+                </div>
             </div>
         </div>
 
