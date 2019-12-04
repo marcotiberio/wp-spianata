@@ -15,8 +15,10 @@ $loop = 30;
         <div class="title">
             <div class="title-inside">
                 <div id="spianata-symbol">
-                <?php if( get_field('spianata_symbol') ): ?>
-                    <img src="<?php the_field('spianata_symbol'); ?>" />
+                <?php 
+                $image = get_field('spianata_symbol');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                 <?php endif; ?>
                 </div>
             </div>
