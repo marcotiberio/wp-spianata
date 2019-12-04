@@ -1859,12 +1859,6 @@ address {
   transition: 0.2s ease;
 }
 @media only screen and (max-width: 600px) {
-  .homepage .desktop .desktop-title .title-inside #spianata-symbol img {
-    height: 50% !important;
-    width: 50% !important;
-  }
-}
-@media only screen and (max-width: 600px) {
   .homepage .desktop .desktop-title {
     height: 20% !important;
   }

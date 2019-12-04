@@ -78,55 +78,59 @@ $imagemobile = get_field('mobile_image');
             style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
 
-        <div class="homepage-image-mobile" id="mobile-image"
-            style="background-image:url('<?php echo $imagemobile['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
-        </div>
-
-
     </div>
 
 
 
     <div class="mobile">
+        
         <div class="title">
+            
             <div class="title-inside">
                 <div id="spianata-symbol-mobile">
                     <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
                 </div>
             </div>
+        
+
+            <a href="<?php echo esc_url( get_page_link(6) ); ?>" class="title">
+                <div class="title-inside">
+                    <div id="spianata-title">
+                        SPIANATA BAKERY
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="title">
+                <div class="title-inside">
+                    <div id="catering-title">
+                        CATERING
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="title">
+                <div class="title-inside">
+                    <div id="classes-title">
+                        BAKERY CLASSES
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title">
+                <div class="title-inside">
+                    <div id="instagram-title">
+                        INSTAGRAM
+                    </div>
+                </div>
+            </a>
+
         </div>
 
-        <a href="<?php echo esc_url( get_page_link(6) ); ?>" class="title">
-            <div class="title-inside">
-                <div id="spianata-title">
-                    SPIANATA BAKERY
-                </div>
-            </div>
-        </a>
+        <div class="homepage-image-mobile" id="mobile-image"
+            style="background-image:url('<?php echo $imagemobile['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        </div>
 
-        <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="title">
-            <div class="title-inside">
-                <div id="catering-title">
-                    CATERING
-                </div>
-            </div>
-        </a>
-
-        <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="title">
-            <div class="title-inside">
-                <div id="classes-title">
-                    BAKERY CLASSES
-                </div>
-            </div>
-        </a>
-
-        <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title">
-            <div class="title-inside">
-                <div id="instagram-title">
-                    INSTAGRAM
-                </div>
-            </div>
-        </a>
     </div>
 
 </div>

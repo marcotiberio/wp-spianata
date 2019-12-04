@@ -47,12 +47,12 @@
                     transition: 0.2s ease;
                 }
 
-                #spianata-symbol img {
-                    @media only screen and (max-width: $break-phone) {
-                        height: 50% !important;
-                        width: 50% !important;
-                    }
-                }
+                // #spianata-symbol img {
+                //     @media only screen and (max-width: $break-phone) {
+                //         height: 50% !important;
+                //         width: 50% !important;
+                //     }
+                // }
 
             }
 
@@ -103,11 +103,6 @@
             margin: 20px;
             height: 100vh;
         }
-
-        // #spianata-symbol-mobile {
-        //         height: 50% !important;
-        //         width: 50% !important;
-        // }
 
         img {
             width: 50%;
