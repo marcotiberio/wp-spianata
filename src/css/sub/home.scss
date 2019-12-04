@@ -74,7 +74,7 @@
             margin: 35px 0 !important;
             
             @media only screen and (max-width: $break-phone) {
-                display: block;
+                display: block !important;
             }
         }
 
