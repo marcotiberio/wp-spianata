@@ -6,7 +6,7 @@ $loop = 30;
 ?>
 
 <?php
-$symbol = get_field('spianata_image');
+$symbol = get_field('spianata_symbol');
 $imagespianata = get_field('spianata_image');
 ?>
 
