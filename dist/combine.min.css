@@ -1587,6 +1587,7 @@ fieldset {
   width: 100%;
   top: -600px;
   transition: 0.2s;
+  z-index: 1;
 }
 .mobile-slide li {
   background: black;
