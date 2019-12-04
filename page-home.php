@@ -16,7 +16,7 @@ $imageinstagram = get_field('instagram_image');
 
 <div class="inside-normal homepage">
 
-    <div id="spianata-symbol">
+    <div class="spianata-symbol">
         <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
     </div>
 
