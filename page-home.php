@@ -6,7 +6,8 @@ $loop = 30;
 ?>
 
 <?php
-$image = get_field('spianata_image');
+$symbol = get_field('spianata_image');
+$imagespianata = get_field('spianata_image');
 ?>
 
 
@@ -19,11 +20,7 @@ $image = get_field('spianata_image');
         <div class="title">
             <div class="title-inside">
                 <div id="spianata-symbol">
-                <?php 
-                $image = get_field('spianata_symbol');
-                if( !empty( $image ) ): ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                <?php endif; ?>
+                    <img src="<?php echo $symbol[url]; ?>" alt="<?php echo $symbol[alt]; ?>">
                 </div>
             </div>
         </div>
@@ -65,7 +62,7 @@ $image = get_field('spianata_image');
         
 
         <div class="homepage-image" id="spianata-image">
-            <img src="<?php echo $image[url]; ?>" alt="<?php echo $image[alt]; ?>">
+            <img src="<?php echo $imagespianata[url]; ?>" alt="<?php echo $imagespianata[alt]; ?>">
         </div>
 
     </div>
