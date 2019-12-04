@@ -1868,6 +1868,11 @@ address {
   color: #e8361b;
   transition: 0.2s ease;
 }
+@media only screen and (max-width: 600px) {
+  .homepage .desktop .desktop-title {
+    height: 25vh !important;
+  }
+}
 .homepage .desktop .homepage-image {
   display: none;
   height: 50vh;
@@ -1875,7 +1880,7 @@ address {
 }
 .homepage .desktop .homepage-image-mobile {
   display: none;
-  height: 50vh;
+  height: 65vh;
   margin: 35px 0 !important;
 }
 @media only screen and (max-width: 600px) {
