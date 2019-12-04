@@ -70,6 +70,16 @@
             margin: 35px 0 !important;
         }
 
+        .homepage-image-mobile {
+            display: none;
+            height: 50vh;
+            margin: 35px 0 !important;
+            
+            @media only screen and (max-width: $break-phone) {
+                display: block;
+            }
+        }
+
         // .move-left .inner {
         //     position: relative;
         //     left: -97%;

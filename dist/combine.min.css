@@ -1873,6 +1873,16 @@ address {
   height: 50vh;
   margin: 35px 0 !important;
 }
+.homepage .desktop .homepage-image-mobile {
+  display: none;
+  height: 50vh;
+  margin: 35px 0 !important;
+}
+@media only screen and (max-width: 600px) {
+  .homepage .desktop .homepage-image-mobile {
+    display: block;
+  }
+}
 .homepage .mobile {
   display: none;
 }

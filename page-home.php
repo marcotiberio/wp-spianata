@@ -73,6 +73,10 @@ $imageinstagram = get_field('instagram_image');
         <div class="homepage-image" id="instagram-image" style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
 
+        <div class="homepage-image-mobile" id="mobile-image" style="background-image:url('<?php echo $imagemobile['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        </div>
+
+
     </div>
 
 
