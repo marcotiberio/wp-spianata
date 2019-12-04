@@ -1855,7 +1855,7 @@ address {
 }
 .homepage .desktop .homepage-image {
   display: none;
-  height: 60vh;
+  height: 50vh;
   margin: 35px 0 !important;
 }
 @media only screen and (max-width: 600px) {
