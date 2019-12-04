@@ -61,8 +61,7 @@ $imagespianata = get_field('spianata_image');
 
         
 
-        <div class="homepage-image" id="spianata-image">
-            <img src="<?php echo $imagespianata[url]; ?>" alt="<?php echo $imagespianata[alt]; ?>">
+        <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $imagespianata['url']; ?>');">
         </div>
 
     </div>
