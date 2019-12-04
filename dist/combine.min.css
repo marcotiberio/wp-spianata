@@ -1877,11 +1877,11 @@ address {
 .homepage .desktop .homepage-image-mobile {
   display: none;
   height: 80%;
-  margin: 35px 0 !important;
+  margin: 20px 0 !important;
 }
 @media only screen and (max-width: 600px) {
   .homepage .desktop .homepage-image-mobile {
-    display: block;
+    display: block !important;
   }
 }
 @media only screen and (max-width: 600px) {
