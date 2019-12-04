@@ -1858,17 +1858,12 @@ address {
   height: 50vh;
   margin: 35px 0 !important;
 }
-@media only screen and (max-width: 600px) {
-  .homepage .desktop {
-    display: none;
-  }
-}
 .homepage .mobile {
   display: none;
 }
 @media only screen and (max-width: 600px) {
   .homepage .mobile {
-    display: block;
+    display: none;
   }
 }
 .homepage .mobile img {

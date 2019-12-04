@@ -77,7 +77,7 @@ $imageinstagram = get_field('instagram_image');
 
 
 
-    <div class="mobile">
+    <!-- <div class="mobile">
         <a href="<?php echo esc_url( get_page_link(6) ); ?>" class="title-mobile">
             <img src="<?php echo get_template_directory_uri()?>/assets/svg/spianata.svg" alt="">         
         </a>
@@ -97,7 +97,7 @@ $imageinstagram = get_field('instagram_image');
         <a href="https://twitter.com/spianatabakery" target="_blank" class="title move-right">
             <img src="<?php echo get_template_directory_uri()?>/assets/svg/twitter.svg" alt="">               
         </a>
-    </div>
+    </div> -->
 
 </div>
 

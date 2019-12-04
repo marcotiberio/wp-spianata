@@ -62,7 +62,7 @@
         // }
 
         @media only screen and (max-width: $break-phone) {
-            display: none;
+            // display: none;
         }
     }
 
@@ -71,7 +71,7 @@
         display: none;
 
         @media only screen and (max-width: $break-phone) {
-            display: block;
+            display: none;
         }
 
         img {
