@@ -30,7 +30,11 @@ address {
 .flex-text {
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;             // EDIT
+    width: 550px;
+
+    @media only screen and (max-width: $break-phone) {
+        width: fit-content !important;
+    }
 }
 
 .form-row {
