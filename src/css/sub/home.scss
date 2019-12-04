@@ -68,15 +68,15 @@
             margin: 35px 0 !important;
         }
 
-        .homepage-image-mobile {
-            display: none;
-            height: 80%;
-            margin: 20px 0 !important;
+        // .homepage-image-mobile {
+        //     display: none;
+        //     height: 80%;
+        //     margin: 20px 0 !important;
             
-            @media only screen and (max-width: $break-phone) {
-                display: block !important;
-            }
-        }
+        //     @media only screen and (max-width: $break-phone) {
+        //         display: block !important;
+        //     }
+        // }
 
         // .move-left .inner {
         //     position: relative;
@@ -102,6 +102,12 @@
             font-size: 32px;
             margin: 20px;
             height: 100vh;
+
+            .homepage-image-mobile {
+                display: block;
+                height: 80%;
+                margin: 20px 0 !important;
+            }
         }
 
         img {

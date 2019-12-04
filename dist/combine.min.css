@@ -1868,16 +1868,6 @@ address {
   height: 50vh;
   margin: 35px 0 !important;
 }
-.homepage .desktop .homepage-image-mobile {
-  display: none;
-  height: 80%;
-  margin: 20px 0 !important;
-}
-@media only screen and (max-width: 600px) {
-  .homepage .desktop .homepage-image-mobile {
-    display: block !important;
-  }
-}
 @media only screen and (max-width: 600px) {
   .homepage .desktop {
     display: none;
@@ -1892,6 +1882,11 @@ address {
     font-size: 32px;
     margin: 20px;
     height: 100vh;
+  }
+  .homepage .mobile .homepage-image-mobile {
+    display: block;
+    height: 80%;
+    margin: 20px 0 !important;
   }
 }
 .homepage .mobile img {
