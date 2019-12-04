@@ -1886,7 +1886,7 @@ address {
 }
 @media only screen and (max-width: 600px) {
   .homepage .desktop {
-    height: 100%;
+    display: none;
   }
 }
 .homepage .mobile {
@@ -1895,6 +1895,9 @@ address {
 @media only screen and (max-width: 600px) {
   .homepage .mobile {
     display: block;
+    font-size: 32px;
+    margin: 20px;
+    height: 100vh;
   }
 }
 .homepage .mobile img {
