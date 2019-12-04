@@ -1866,7 +1866,7 @@ address {
 }
 @media only screen and (max-width: 600px) {
   .homepage .desktop .desktop-title {
-    height: 25vh !important;
+    height: 20% !important;
   }
 }
 .homepage .desktop .homepage-image {
@@ -1876,12 +1876,17 @@ address {
 }
 .homepage .desktop .homepage-image-mobile {
   display: none;
-  height: 65vh;
+  height: 80%;
   margin: 35px 0 !important;
 }
 @media only screen and (max-width: 600px) {
   .homepage .desktop .homepage-image-mobile {
     display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .homepage .desktop {
+    height: 100%;
   }
 }
 .homepage .mobile {
@@ -1895,11 +1900,6 @@ address {
 .homepage .mobile img {
   width: 100%;
   height: auto;
-}
-@media only screen and (max-width: 600px) {
-  .homepage {
-    margin-top: 75px !important;
-  }
 }
 
 .homepage-footer {
