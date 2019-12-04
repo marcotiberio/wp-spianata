@@ -10,19 +10,6 @@
 
 .homepage {
 
-    .spianata-symbol {
-        margin-top: 15px;
-        margin-right: 20px;
-        margin-left: 20px;
-
-        @media only screen and (max-width: $break-phone) {
-            .spianata-symbol img {
-                width: 50% !important;
-            }
-        }
-    }
-
-
     .desktop {
         margin-top: 15px;
         margin-right: 20px;
@@ -58,6 +45,13 @@
                 &:hover {
                     color: $red;
                     transition: 0.2s ease;
+                }
+
+                #spianata-symbol img {
+                    @media only screen and (max-width: $break-phone) {
+                        height: 50% !important;
+                        width: 50% !important;
+                    }
                 }
 
             }

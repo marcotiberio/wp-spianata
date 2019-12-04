@@ -1827,16 +1827,6 @@ address {
   background: #111111 !important;
 }
 
-.homepage .spianata-symbol {
-  margin-top: 15px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-@media only screen and (max-width: 600px) {
-  .homepage .spianata-symbol .spianata-symbol img {
-    width: 50% !important;
-  }
-}
 .homepage .desktop {
   margin-top: 15px;
   margin-right: 20px;
@@ -1867,6 +1857,12 @@ address {
 .homepage .desktop .desktop-title .title-inside:hover {
   color: #e8361b;
   transition: 0.2s ease;
+}
+@media only screen and (max-width: 600px) {
+  .homepage .desktop .desktop-title .title-inside #spianata-symbol img {
+    height: 50% !important;
+    width: 50% !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .homepage .desktop .desktop-title {
