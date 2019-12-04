@@ -63,6 +63,12 @@
 
         @media only screen and (max-width: $break-phone) {
             // display: none;
+
+            font-family: 'Futura Md BT'; 
+            font-size: 32px;
+            letter-spacing: 0.02em;
+            color: $dark-grey;
+            line-height: 1em;
         }
     }
 

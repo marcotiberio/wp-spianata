@@ -1858,6 +1858,15 @@ address {
   height: 50vh;
   margin: 35px 0 !important;
 }
+@media only screen and (max-width: 600px) {
+  .homepage .desktop {
+    font-family: 'Futura Md BT';
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    color: #777777;
+    line-height: 1em;
+  }
+}
 .homepage .mobile {
   display: none;
 }
