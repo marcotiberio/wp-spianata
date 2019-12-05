@@ -63,14 +63,14 @@ $imagemobile = get_field('mobile_image');
 
         </div>
 
-
+    
 
         <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $imagespianata['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
         <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
         <div class="homepage-image" id="classes-image" style="display: block;">
-        <video class="home-video" loop muted>
+        <video class="video-home" loop muted>
             <source src="<?php the_field('classes_image');?>" type="video/mp4">
             <source src="<?php the_field('classes_image');?>" type="video/ogg">
             Your browser does not support the video tag.
