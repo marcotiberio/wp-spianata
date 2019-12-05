@@ -1861,6 +1861,9 @@ address {
   margin-left: 20px;
   margin-bottom: 20px;
   height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
 }
 .homepage .desktop .desktop-title {
   height: 40vh;
