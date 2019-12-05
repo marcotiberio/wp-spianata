@@ -1896,6 +1896,18 @@ address {
   height: 50vh;
   margin: 35px 0 !important;
 }
+.homepage .desktop .homepage-image .video-home {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
+}
 @media only screen and (max-width: 600px) {
   .homepage .desktop {
     display: none;

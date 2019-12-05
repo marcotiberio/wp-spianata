@@ -70,7 +70,7 @@ $imagemobile = get_field('mobile_image');
         <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
         <div class="homepage-image" id="classes-image" style="display: block;">
-        <video width="100%" height="" autoplay loop muted>
+        <video class="video-home" loop muted>
             <source src="<?php the_field('classes_image');?>" type="video/mp4">
             <source src="<?php the_field('classes_image');?>" type="video/ogg">
             Your browser does not support the video tag.
