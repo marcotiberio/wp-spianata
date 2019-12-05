@@ -1829,11 +1829,6 @@ address {
   margin-right: auto;
   width: 550px;
 }
-@media only screen and (max-width: 600px) {
-  .flex-text {
-    width: fit-content !important;
-  }
-}
 
 .form-row {
   display: grid;
@@ -1856,9 +1851,6 @@ address {
 @media only screen and (max-width: 600px) {
   .page-template-page-home .header-columns .nav-mobile {
     display: none !important;
-  }
-  .page-template-page-home .header-columns .cart-mobile {
-    right: 20px !important;
   }
 }
 

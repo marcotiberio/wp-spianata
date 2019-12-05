@@ -33,7 +33,7 @@ address {
     width: 550px;
 
     @media only screen and (max-width: $break-phone) {
-        width: fit-content !important;
+        // width: fit-content !important;
     }
 }
 
