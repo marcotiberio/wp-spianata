@@ -69,7 +69,23 @@ $imagemobile = get_field('mobile_image');
         </div>
         <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
-        <div class="homepage-image" id="classes-image" style="background-image:url('<?php echo $imageclasses['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        <div class="homepage-image" id="classes-image">
+        <?php
+// Get the Video Fields
+$video_mp4 =  get_field('classes_image'); // MP4 Field Name
+                <br>
+// Build the  Shortcode
+$attr =  array(
+'mp4'      => $video_mp4,
+'webm'     => $video_webm,
+'flv'      => $video_flv,
+'poster'   => $video_poster,
+'preload'  => 'auto'
+);
+
+// Display the Shortcode
+echo wp_video_shortcode(  $attr );
+?>
         </div>
         <div class="homepage-image" id="instagram-image" style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
