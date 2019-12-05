@@ -1901,7 +1901,7 @@ address {
   margin: 35px 0 !important;
 }
 .homepage .desktop .homepage-video .home-video {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   width: 100%;
