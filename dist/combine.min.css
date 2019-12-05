@@ -1896,6 +1896,9 @@ address {
   height: 50vh;
   margin: 35px 0 !important;
 }
+.homepage .desktop .homepage-image .video-home {
+  width: 100%;
+}
 @media only screen and (max-width: 600px) {
   .homepage .desktop {
     display: none;
