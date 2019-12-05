@@ -131,10 +131,10 @@ $imagemobile = get_field('mobile_image');
             <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title">
                 <div class="title-inside">
                     <a href="<?php echo esc_url( get_page_link(55) ); ?>">
-                        <div class="in">
+                        <div class="in" style="text-transform: uppercase;">
                             My Account
                         </div>
-                        <div class="out">
+                        <div class="out" style="text-transform: uppercase;">
                             Login
                         </div>
                     </a>
