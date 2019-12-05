@@ -65,18 +65,22 @@ $imagemobile = get_field('mobile_image');
 
 
 
-        <div class="homepage-image" id="spianata-image" style="background-image:url('<?php echo $imagespianata['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
-        </div>
-        <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
-        </div>
-        <div class="homepage-image" id="classes-image" style="display: block;">
-        <video class="video-home" loop muted>
-            <source src="<?php the_field('classes_image');?>" type="video/mp4">
-            <source src="<?php the_field('classes_image');?>" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
-        </div>
-        <div class="homepage-image" id="instagram-image" style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        <div class="homepage-image">
+
+            <div id="spianata-image" style="background-image:url('<?php echo $imagespianata['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+            </div>
+            <div id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+            </div>
+            <div id="classes-image" style="display: block;">
+            <video class="video-home" loop muted>
+                <source src="<?php the_field('classes_image');?>" type="video/mp4">
+                <source src="<?php the_field('classes_image');?>" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+            <div id="instagram-image" style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+            </div>
+
         </div>
 
     </div>
