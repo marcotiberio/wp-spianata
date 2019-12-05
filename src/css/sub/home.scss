@@ -5,6 +5,17 @@
         display: none !important;
     }
 
+    @media only screen and (max-width: $break-phone) {
+        
+        .nav-mobile {
+            display: none !important;
+        }
+
+        .cart-mobile {
+            right: 20px !important;
+        }
+    }
+
 }
 
 .page-template-page-home {
