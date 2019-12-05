@@ -9,7 +9,6 @@ $loop = 30;
 $symbol = get_field('spianata_symbol');
 $imagespianata = get_field('spianata_image');
 $imagecatering = get_field('catering_image');
-$imageclasses = get_field('classes_image');
 $imageinstagram = get_field('instagram_image');
 $imagemobile = get_field('mobile_image');
 ?>
@@ -70,11 +69,11 @@ $imagemobile = get_field('mobile_image');
         <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
         <div class="homepage-image" id="classes-image">
-            <video width="100%" height="" autoplay loop muted>
-                <source src="<?php get_field('classes_image');?>" type="video/mp4">
-                <source src="<?php get_field('classes_image');?>" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
+            <?php
+                $imageclasses = get_field('classes_image');
+                if( $imageclasses ): ?>
+                    <a href="<?php echo $imageclasses['url']; ?>"><?php echo $imageclasses['filename']; ?></a>
+            <?php endif; ?>
     
     </div>
         <div class="homepage-image" id="instagram-image" style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
