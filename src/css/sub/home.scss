@@ -1,5 +1,10 @@
 .page-template-page-home .header-columns {
-    display: none !important;
+    display: block;
+
+    .navingation {
+        display: none !important;
+    }
+
 }
 
 .page-template-page-home {
