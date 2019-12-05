@@ -69,7 +69,7 @@ $imagemobile = get_field('mobile_image');
         </div>
         <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
-        <div class="homepage-image" id="classes-image" style="background-image:url('<?php echo $imageslasses['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        <div class="homepage-image" id="classes-image" style="background-image:url('<?php echo $imageclasses['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
         <!-- <div class="homepage-video" id="classes-image" style="display: block;">
             <video class="home-video" autoplay loop muted>
