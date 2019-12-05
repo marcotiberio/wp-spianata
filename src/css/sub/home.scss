@@ -10,6 +10,19 @@
 
 .homepage {
 
+    .home-video {
+        position: absolute; 
+        right: 0; 
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        width: auto; 
+        height: auto; 
+        z-index: -100;
+        background-size: cover;
+        overflow: hidden;
+    }
+
     .desktop {
         margin-top: 15px;
         margin-right: 20px;
@@ -72,19 +85,6 @@
             // display: none;
             height: 50vh;
             margin: 35px 0 !important;
-
-            .home-video {
-                position: absolute; 
-                right: 0; 
-                bottom: 0;
-                min-width: 100%; 
-                min-height: 100%;
-                width: auto; 
-                height: auto; 
-                z-index: -100;
-                background-size: cover;
-                overflow: hidden;
-            }
         }
 
         // .homepage-image-mobile {
