@@ -72,7 +72,11 @@ $imagemobile = get_field('mobile_image');
             <?php
                 $imageclasses = get_field('classes_image');
                 if( $imageclasses ): ?>
-                    <a href="<?php echo $imageclasses['url']; ?>"><?php echo $imageclasses['filename']; ?></a>
+                    <video width="100%" height="" autoplay loop muted>
+                        <source src="<?php echo $imageclasses['classes_image']; ?>" type="video/mp4">
+                        <source src="<?php echo $imageclasses['classes_image']; ?>" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
             <?php endif; ?>
     
     </div>
