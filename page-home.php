@@ -69,7 +69,12 @@ $imagemobile = get_field('mobile_image');
         </div>
         <div class="homepage-image" id="catering-image" style="background-image:url('<?php echo $imagecatering['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
-        <div class="homepage-image" id="classes-image" style="background-image:url('<?php echo $imageclasses['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
+        <div class="homepage-image" id="classes-image">
+        <video width="100%" height="" autoplay loop muted>
+            <source src="<?php the_field('classes_image');?>" type="video/mp4">
+            <source src="<?php the_field('classes_image');?>" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
         </div>
         <div class="homepage-image" id="instagram-image" style="background-image:url('<?php echo $imageinstagram['url']; ?>'); background-repeat: no-repeat; background-size: cover;">
         </div>
