@@ -1871,9 +1871,6 @@ address {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
 }
-.homepage .desktop .desktop-title {
-  height: 40vh;
-}
 .homepage .desktop .desktop-title .title {
   color: white;
   font-family: 'Futura Md BT';
@@ -1902,7 +1899,6 @@ address {
 }
 .homepage .desktop .homepage-image {
   display: none;
-  height: 50vh;
   margin: 35px 0 !important;
 }
 .homepage .desktop .homepage-video {
