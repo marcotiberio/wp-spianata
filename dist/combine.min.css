@@ -1511,7 +1511,7 @@ fieldset {
 .backhome {
   position: fixed;
   left: 20px;
-  bottom: 15px;
+  bottom: 5px;
   z-index: 10;
 }
 .backhome p {
