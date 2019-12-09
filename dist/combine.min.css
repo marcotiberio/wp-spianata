@@ -1476,6 +1476,7 @@ select {
 }
 .nav-main .menu-item {
   padding-bottom: 10px;
+  color: #111111 !important;
 }
 .nav-main .nav-bottom {
   padding-top: 20px;
