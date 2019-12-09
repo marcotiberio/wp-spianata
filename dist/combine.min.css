@@ -1855,6 +1855,7 @@ address {
 
 .page-template-page-home .header-columns {
   display: block;
+  color: #777777 !important;
 }
 .page-template-page-home .header-columns .navigation {
   display: none !important;
