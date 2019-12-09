@@ -29,7 +29,7 @@ li {
 }
 
 a {
-  color: #111111;
+  color: #777777;
 }
 
 thead {
@@ -1469,6 +1469,7 @@ fieldset {
   top: 20px;
   left: 20px;
   list-style: none;
+  color: #111111 !important;
 }
 .nav-main .menu-item {
   padding-bottom: 10px;
