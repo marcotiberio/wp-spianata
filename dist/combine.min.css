@@ -1478,8 +1478,12 @@ select {
 .nav-main .menu-item {
   padding-bottom: 10px;
 }
+.nav-main .nav-top {
+  color: #111111 !important;
+}
 .nav-main .nav-bottom {
   padding-top: 20px;
+  color: #111111 !important;
 }
 
 .archive.postcode-ok .nav-middle {

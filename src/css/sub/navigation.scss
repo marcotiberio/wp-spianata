@@ -34,8 +34,13 @@
         padding-bottom: $s-padding;
     }
 
+    .nav-top {
+        color: $black !important;
+    }
+
     .nav-bottom {
         padding-top: $m-padding;
+        color: $black !important;
     }
 }
 
