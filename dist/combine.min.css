@@ -1939,7 +1939,7 @@ address {
     display: block;
     font-family: 'Futura Bk BT';
     font-size: 32px;
-    color: #ffffff;
+    color: #ffffff !important;
     margin: 20px;
     height: 100vh;
   }
