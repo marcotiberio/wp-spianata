@@ -55,3 +55,13 @@ address {
         margin: 20px !important;
     }
 }
+
+.text-inside {
+    a:hover {
+        color: $red !important;
+    }
+
+    a {
+        color: $black !important;
+    }
+}

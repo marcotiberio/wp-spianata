@@ -32,10 +32,6 @@ a {
   color: #777777;
 }
 
-.text-inside a:hover {
-  color: #e8361b !important;
-}
-
 thead {
   display: none;
 }
@@ -1855,6 +1851,13 @@ address {
   .shop-footer p {
     margin: 20px !important;
   }
+}
+
+.text-inside a:hover {
+  color: #e8361b !important;
+}
+.text-inside a {
+  color: #111111 !important;
 }
 
 .page-template-page-home .header-columns {
