@@ -1498,6 +1498,7 @@ fieldset {
   top: 20px;
   width: 15%;
   display: block;
+  color: #777777;
 }
 @media only screen and (max-width: 600px) {
   .nav-cart {
@@ -1855,7 +1856,6 @@ address {
 
 .page-template-page-home .header-columns {
   display: block;
-  color: #777777 !important;
 }
 .page-template-page-home .header-columns .navigation {
   display: none !important;
