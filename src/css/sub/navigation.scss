@@ -70,6 +70,7 @@
     top: $m-padding;
     width: 15%;
     display: block;
+    color: $black !important;
 
     @media only screen and (max-width: $break-phone) {
         display: none;
