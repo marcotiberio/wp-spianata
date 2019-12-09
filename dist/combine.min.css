@@ -1473,6 +1473,7 @@ select {
   top: 20px;
   left: 20px;
   list-style: none;
+  color: #111111;
 }
 .nav-main .menu-item {
   padding-bottom: 10px;
