@@ -70,9 +70,9 @@
             margin-top: 20px;   
         }
 
-        .option-top p {
+        .option-top .flex-text {
             @media only screen and (max-width: $break-phone) {
-                margin: 20px !important;
+                width: auto !important;
             }
         }
 

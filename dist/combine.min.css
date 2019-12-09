@@ -1750,8 +1750,8 @@ h2 {
   margin-top: 20px;
 }
 @media only screen and (max-width: 600px) {
-  .post-type-archive-product .all-categories .option-top p {
-    margin: 20px !important;
+  .post-type-archive-product .all-categories .option-top .flex-text {
+    width: auto !important;
   }
 }
 @media only screen and (max-width: 600px) {
