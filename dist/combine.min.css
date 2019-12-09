@@ -373,10 +373,6 @@ select {
   padding-left: 5px;
 }
 
-fieldset {
-  display: none;
-}
-
 #password_current {
   display: flex;
   width: 100%;
