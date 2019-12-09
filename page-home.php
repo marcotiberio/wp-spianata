@@ -104,7 +104,7 @@ $imagemobile = get_field('mobile_image');
                 </div>
             </a>
 
-            <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="title">
+            <a href="<?php echo esc_url( get_page_link(52) ); ?>" class="title" style="color: white;">
                 <div class="title-inside">
                     <div id="catering-title">
                         CATERING
@@ -112,7 +112,7 @@ $imagemobile = get_field('mobile_image');
                 </div>
             </a>
 
-            <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="title">
+            <a href="<?php echo esc_url( get_page_link(8) ); ?>" class="title" style="color: white;">
                 <div class="title-inside">
                     <div id="classes-title">
                         BAKERY CLASSES
@@ -120,7 +120,7 @@ $imagemobile = get_field('mobile_image');
                 </div>
             </a>
 
-            <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title">
+            <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title" style="color: white;">
                 <div class="title-inside">
                     <div id="instagram-title">
                         INSTAGRAM
@@ -128,7 +128,7 @@ $imagemobile = get_field('mobile_image');
                 </div>
             </a>
 
-            <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title">
+            <a href="https://www.instagram.com/spianatabakery/" target="_blank" class="title" style="color: white;">
                 <div class="title-inside">
                     <a href="<?php echo esc_url( get_page_link(55) ); ?>">
                         <div class="in" style="text-transform: uppercase;">
