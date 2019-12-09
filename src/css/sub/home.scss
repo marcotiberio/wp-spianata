@@ -135,7 +135,10 @@
         display: none;
 
         @media only screen and (max-width: $break-phone) {
-            display: block;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 3fr;
+            
             font-family: 'Futura Bk BT';
             font-size: 32px;
             color: $white !important;
