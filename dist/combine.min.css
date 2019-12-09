@@ -1872,9 +1872,6 @@ address {
   background: #111111 !important;
 }
 
-.homepage {
-  overflow: hidden !important;
-}
 .homepage .desktop {
   margin-top: 15px;
   margin-right: 20px;

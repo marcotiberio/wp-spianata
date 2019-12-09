@@ -96,7 +96,7 @@ $imagemobile = get_field('mobile_image');
             </div>
         
 
-            <a href="<?php echo esc_url( get_page_link(6) ); ?>" class="title">
+            <a href="<?php echo esc_url( get_page_link(6) ); ?>" class="title" style="color: white;">
                 <div class="title-inside">
                     <div id="spianata-title">
                         SPIANATA BAKERY
