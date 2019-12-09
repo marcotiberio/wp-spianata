@@ -31,12 +31,15 @@
 
     .menu-item {
         padding-bottom: $s-padding;
-        color: $black !important;
     }
 
     .nav-bottom {
         padding-top: $m-padding;
     }
+}
+
+#menu-header {
+    color: $black !important;
 }
 
 .archive.postcode-ok .nav-middle {
