@@ -1473,17 +1473,12 @@ select {
   top: 20px;
   left: 20px;
   list-style: none;
-  color: #111111 !important;
 }
 .nav-main .menu-item {
   padding-bottom: 10px;
 }
-.nav-main .nav-top {
-  color: #111111 !important;
-}
 .nav-main .nav-bottom {
   padding-top: 20px;
-  color: #111111 !important;
 }
 
 .archive.postcode-ok .nav-middle {
@@ -1507,7 +1502,6 @@ select {
   top: 20px;
   width: 15%;
   display: block;
-  color: #111111 !important;
 }
 @media only screen and (max-width: 600px) {
   .nav-cart {
@@ -1651,7 +1645,7 @@ select {
   font-weight: 100;
   line-height: 1.15;
   letter-spacing: 0.01em;
-  color: #111111;
+  color: #777777;
 }
 
 ._h3, .footer-main, .account-orders-table {

@@ -28,19 +28,13 @@
     top: $m-padding;
     left: $m-padding;
     list-style: none;
-    color: $black !important;
 
     .menu-item {
         padding-bottom: $s-padding;
     }
 
-    .nav-top {
-        color: $black !important;
-    }
-
     .nav-bottom {
         padding-top: $m-padding;
-        color: $black !important;
     }
 }
 
@@ -70,7 +64,6 @@
     top: $m-padding;
     width: 15%;
     display: block;
-    color: $black !important;
 
     @media only screen and (max-width: $break-phone) {
         display: none;
