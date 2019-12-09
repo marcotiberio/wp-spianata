@@ -22,6 +22,10 @@ a {
 	color: $dark-grey;
 }
 
+.text-inside a:hover {
+	color: $red !important;
+}
+
 thead {
 	display: none;			// EDIT
 }

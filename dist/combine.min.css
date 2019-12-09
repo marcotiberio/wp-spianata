@@ -32,6 +32,10 @@ a {
   color: #777777;
 }
 
+.text-inside a:hover {
+  color: #e8361b !important;
+}
+
 thead {
   display: none;
 }
