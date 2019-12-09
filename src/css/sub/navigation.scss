@@ -28,7 +28,6 @@
     top: $m-padding;
     left: $m-padding;
     list-style: none;
-    color: $black !important;
 
     .menu-item {
         padding-bottom: $s-padding;
@@ -65,7 +64,6 @@
     top: $m-padding;
     width: 15%;
     display: block;
-    color: $dark-grey !important;
 
     @media only screen and (max-width: $break-phone) {
         display: none;
