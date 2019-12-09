@@ -1842,6 +1842,10 @@ address {
   display: none !important;
 }
 
+.shop-footer p {
+  margin: 20px !important;
+}
+
 .page-template-page-home .header-columns {
   display: block;
 }
