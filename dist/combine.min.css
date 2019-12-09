@@ -1492,6 +1492,7 @@ select {
 .small-menu-item {
   padding-bottom: 10px;
   cursor: pointer;
+  color: #111111 !important;
 }
 
 .nav-cart {
