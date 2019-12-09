@@ -67,9 +67,13 @@
 
         .option-top {
             @extend ._basic-width;
-            margin-top: 20px;
+            margin-top: 20px;   
+        }
 
-            
+        .option-top p {
+            @media only screen and (max-width: $break-phone) {
+                margin: 20px !important;
+            }
         }
 
 

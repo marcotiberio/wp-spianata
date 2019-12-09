@@ -50,5 +50,8 @@ address {
 }
 
 .shop-footer p {
-    margin: 20px !important;
+
+    @media only screen and (max-width: $break-phone) {
+        margin: 20px !important;
+    }
 }

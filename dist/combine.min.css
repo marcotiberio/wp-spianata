@@ -1750,6 +1750,11 @@ h2 {
   margin-top: 20px;
 }
 @media only screen and (max-width: 600px) {
+  .post-type-archive-product .all-categories .option-top p {
+    margin: 20px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
   .post-type-archive-product .all-categories {
     padding-top: 30px;
   }
@@ -1842,8 +1847,10 @@ address {
   display: none !important;
 }
 
-.shop-footer p {
-  margin: 20px !important;
+@media only screen and (max-width: 600px) {
+  .shop-footer p {
+    margin: 20px !important;
+  }
 }
 
 .page-template-page-home .header-columns {
