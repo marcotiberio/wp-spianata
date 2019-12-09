@@ -1481,10 +1481,6 @@ select {
   padding-top: 20px;
 }
 
-.menu-header-container {
-  color: #111111 !important;
-}
-
 .archive.postcode-ok .nav-middle {
   display: block !important;
 }
@@ -1496,7 +1492,6 @@ select {
 .small-menu-item {
   padding-bottom: 10px;
   cursor: pointer;
-  color: #111111 !important;
 }
 
 .nav-cart {
