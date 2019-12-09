@@ -1870,6 +1870,7 @@ address {
 
 .page-template-page-home {
   background: #111111 !important;
+  overflow-y: hidden !important;
 }
 
 .homepage .desktop {
