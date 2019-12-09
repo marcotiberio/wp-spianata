@@ -1943,12 +1943,12 @@ address {
     font-family: 'Futura Bk BT';
     font-size: 32px;
     color: #ffffff !important;
-    margin: 20px;
-    height: 100vh;
+    margin: 0 20px;
+    height: 97vh;
   }
   .homepage .mobile .homepage-image-mobile {
     display: block;
-    margin: 0 20px !important;
+    margin: 20px 0 !important;
   }
 }
 .homepage .mobile img {
