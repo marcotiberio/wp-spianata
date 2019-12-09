@@ -1481,7 +1481,7 @@ select {
   padding-top: 20px;
 }
 
-#menu-header {
+.menu-header-container {
   color: #111111 !important;
 }
 
