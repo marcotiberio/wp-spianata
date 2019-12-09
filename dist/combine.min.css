@@ -1944,11 +1944,11 @@ address {
     font-size: 32px;
     color: #ffffff !important;
     margin: 20px;
-    height: 97vh;
+    height: 100vh;
   }
   .homepage .mobile .homepage-image-mobile {
     display: block;
-    margin: 20px 0 !important;
+    margin: 0 20px !important;
   }
 }
 .homepage .mobile img {
