@@ -15,6 +15,7 @@
 
 .navigation {
     display: block;
+    color: $black !important;
 
     @media only screen and (max-width: $break-phone) {
         display: none;
@@ -28,6 +29,7 @@
     top: $m-padding;
     left: $m-padding;
     list-style: none;
+    color: $black !important;
 
     .menu-item {
         padding-bottom: $s-padding;
@@ -44,6 +46,14 @@
 }
 
 .archive.postcode-ok .nav-top {
+    color: $black !important;
+}
+
+.archive.postcode-ok .nav-bottom {
+    color: $black !important;
+}
+
+.woocommerce .navigation {
     color: $black !important;
 }
 

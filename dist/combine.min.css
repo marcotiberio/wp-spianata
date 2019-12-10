@@ -1460,6 +1460,7 @@ select {
 
 .navigation {
   display: block;
+  color: #111111 !important;
 }
 @media only screen and (max-width: 600px) {
   .navigation {
@@ -1473,6 +1474,7 @@ select {
   top: 20px;
   left: 20px;
   list-style: none;
+  color: #111111 !important;
 }
 .nav-main .menu-item {
   padding-bottom: 10px;
@@ -1487,6 +1489,14 @@ select {
 }
 
 .archive.postcode-ok .nav-top {
+  color: #111111 !important;
+}
+
+.archive.postcode-ok .nav-bottom {
+  color: #111111 !important;
+}
+
+.woocommerce .navigation {
   color: #111111 !important;
 }
 
