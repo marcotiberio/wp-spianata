@@ -1879,10 +1879,6 @@ address {
   }
 }
 
-.page-template-page-home .a {
-  color: red !important;
-}
-
 .page-template-page-home {
   background: #111111 !important;
   overflow-y: hidden !important;
