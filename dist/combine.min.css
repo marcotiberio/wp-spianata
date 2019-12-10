@@ -29,7 +29,7 @@ li {
 }
 
 a {
-  color: #111111;
+  color: #777777;
 }
 
 thead {
@@ -1483,6 +1483,7 @@ select {
 
 .archive.postcode-ok .nav-middle {
   display: block !important;
+  color: #111111 !important;
 }
 
 .nav-middle {
