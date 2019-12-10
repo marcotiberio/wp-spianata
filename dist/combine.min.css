@@ -1880,7 +1880,15 @@ address {
 }
 
 .page-template-page-home .cart a {
-  color: #111111 !important;
+  color: #777777 !important;
+}
+
+.page-template-page-home .in {
+  color: #777777 !important;
+}
+
+.page-template-page-home .out {
+  color: #777777 !important;
 }
 
 .page-template-page-home {
