@@ -1486,6 +1486,10 @@ select {
   color: #111111 !important;
 }
 
+.archive.postcode-ok .nav-top {
+  color: #111111 !important;
+}
+
 .nav-middle {
   display: none;
 }
