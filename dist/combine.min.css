@@ -1879,6 +1879,10 @@ address {
   }
 }
 
+.home .nav-cart {
+  color: #111111 !important;
+}
+
 .page-template-page-home {
   background: #111111 !important;
   overflow-y: hidden !important;
