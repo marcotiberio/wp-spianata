@@ -1879,7 +1879,7 @@ address {
   }
 }
 
-.home .nav-cart {
+.home .header-columns .navigation .nav-cart .cart a {
   color: #111111 !important;
 }
 
