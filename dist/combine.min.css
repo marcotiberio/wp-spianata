@@ -36,6 +36,10 @@ thead {
   display: none;
 }
 
+.spianata-limited {
+  color: #111111;
+}
+
 textarea,
 select,
 input,
