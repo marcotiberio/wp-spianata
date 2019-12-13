@@ -1891,10 +1891,13 @@ address {
 }
 @media only screen and (max-width: 600px) {
   .page-template-page-home .header-columns {
+    display: none !important;
+  }
+  .page-template-page-home .header-columns .cart {
     display: block !important;
   }
   .page-template-page-home .header-columns .nav-mobile {
-    display: block !important;
+    display: none !important;
   }
 }
 
