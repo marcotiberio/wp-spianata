@@ -2200,6 +2200,7 @@ td {
   background-color: #efefef;
   border: none;
   margin: 10px 0;
+  color: #777777 !important;
 }
 
 .wc-proceed-to-checkout {
