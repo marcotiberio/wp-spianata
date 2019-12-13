@@ -1686,9 +1686,6 @@ h2 {
   margin-bottom: 15px;
 }
 
-.flexible-content {
-  padding-top: 80px;
-}
 .flexible-content .flex-text a:hover {
   color: #e8361b !important;
 }
@@ -2021,7 +2018,6 @@ address {
 }
 
 .woocommerce-MyAccount-navigation {
-  padding-top: 80px;
   padding-bottom: 40px;
   border-bottom: 1px solid black;
   margin-bottom: 15px;
