@@ -1430,8 +1430,8 @@ select {
 
 .hamburger {
   position: fixed;
-  left: 20px;
-  top: 11px;
+  left: 5px;
+  top: 10px;
   z-index: 100;
 }
 
@@ -1638,8 +1638,8 @@ select {
   .cart-mobile {
     display: block;
     position: fixed;
-    top: -3px;
-    right: 0px;
+    top: 20px;
+    right: 20px;
     font-size: 20px;
   }
 }
