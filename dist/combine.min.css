@@ -1559,8 +1559,8 @@ select {
 
 .footer-main {
   position: relative;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 @media only screen and (max-width: 600px) {
   .footer-main {
@@ -1779,7 +1779,7 @@ h2 {
   border-top: 1.3px solid black;
 }
 .post-type-archive-product .all-categories .category-title {
-  padding-top: 7px;
+  padding-top: 9px;
   text-transform: uppercase;
 }
 .post-type-archive-product .all-categories .category-description {
