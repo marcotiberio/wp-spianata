@@ -165,7 +165,7 @@ select {
   text-transform: none;
   background: none;
   border: none;
-  color: #efefef !important;
+  color: #777777 !important;
 }
 
 #customer_details .col-1 {
@@ -183,7 +183,7 @@ select {
 }
 .woocommerce-additional-fields__field-wrapper .woocommerce-input-wrapper textarea {
   border: none;
-  color: #efefef;
+  color: #777777;
 }
 
 ::placeholder {
