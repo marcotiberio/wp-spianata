@@ -137,6 +137,12 @@
 
 }
 
+.woocommerce-cart .footer-main {
+    // padding-top: $f-padding;
+    // padding-bottom: $f-padding;
+    bottom: 5px !important;                // EDIT
+}
+
 .footer-main {
     @extend ._h3;
     @extend ._basic-width;

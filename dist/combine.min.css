@@ -1553,6 +1553,10 @@ select {
   padding: 5px 8px 4px 10px;
 }
 
+.woocommerce-cart .footer-main {
+  bottom: 5px !important;
+}
+
 .footer-main {
   position: relative;
   padding-top: 7px;
