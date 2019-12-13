@@ -6,6 +6,7 @@
 @media only screen and (max-width: 600px) {
   ._basic-width, .footer-main, .flexible-content .flex-text, .post-type-archive-product .post-code, .post-type-archive-product .all-categories .option-top, .post-type-archive-product .all-categories .woo-category, .woocommerce-page .woocommerce {
     width: calc(100% - 40px);
+    padding-top: 80px;
   }
 }
 

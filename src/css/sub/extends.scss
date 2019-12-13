@@ -4,6 +4,7 @@
     width: $width;
 
     @media only screen and (max-width: $break-phone) {
-        width: calc(100% - 40px); 
+        width: calc(100% - 40px);
+        padding-top: 80px;              // EDIT
     }
 }
