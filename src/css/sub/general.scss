@@ -73,10 +73,14 @@ input:-webkit-autofill {
 	transition: background-color 5000s ease-in-out 0s;
 }
 
+.post-code-function input {
+	color: $dark-grey !important;
+}
+
 input {
 	border: 0px;
 	@extend ._h1;
-	color: $dark-grey !important;
+	color: $light-grey !important;
 
 }
 

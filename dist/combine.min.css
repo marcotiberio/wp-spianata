@@ -80,9 +80,13 @@ input:-webkit-autofill {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+.post-code-function input {
+  color: #777777 !important;
+}
+
 input {
   border: 0px;
-  color: #777777 !important;
+  color: #efefef !important;
 }
 
 fieldset {
