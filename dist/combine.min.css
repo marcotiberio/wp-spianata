@@ -1686,7 +1686,7 @@ h2 {
 }
 
 .flexible-content {
-  padding-top: 13px;
+  padding-top: 80px;
 }
 .flexible-content .flex-text a:hover {
   color: #e8361b !important;
@@ -1741,7 +1741,7 @@ h2 {
   display: none;
 }
 .post-type-archive-product .post-code {
-  padding-top: 15px;
+  padding-top: 80px;
   padding-bottom: 15px;
 }
 .post-type-archive-product .post-code .post-code-function {
