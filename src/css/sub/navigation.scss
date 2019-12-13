@@ -190,7 +190,7 @@
 .mobile-menu-active {
     .mobile-slide {
         top: -1px !important;
-
+        
     }
 }
 
@@ -199,7 +199,8 @@
     width: 100%;
     top: -600px;
     transition: 0.2s;
-    z-index: 10;                // EDIT (1)
+    z-index: 1;
+    text-align: right !important;
 
     li {
         background: black;
