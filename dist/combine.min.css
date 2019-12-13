@@ -1556,7 +1556,7 @@ select {
 .woocommerce-cart .footer-main {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  bottom: 15px !important;
+  bottom: 10px !important;
 }
 
 .footer-main {
