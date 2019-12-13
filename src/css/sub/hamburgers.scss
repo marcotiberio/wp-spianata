@@ -32,7 +32,7 @@
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-    background-color: $dark-grey;               // EDIT (light-grey)
+    background-color: $dark-grey !important;               // EDIT (light-grey)
 }
 
 .hamburger-box {
@@ -53,7 +53,7 @@
 .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: $light-grey;
+    background-color: $dark-grey !important;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;
