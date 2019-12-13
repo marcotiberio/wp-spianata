@@ -138,8 +138,8 @@
 }
 
 .woocommerce-cart .footer-main {
-    // padding-top: $f-padding;
-    // padding-bottom: $f-padding;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     bottom: 15px !important;                // EDIT
 }
 
