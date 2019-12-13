@@ -1559,8 +1559,7 @@ select {
 
 .footer-main {
   position: relative;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  bottom: 5px;
 }
 @media only screen and (max-width: 600px) {
   .footer-main {
