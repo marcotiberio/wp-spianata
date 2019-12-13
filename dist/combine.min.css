@@ -1687,6 +1687,9 @@ h2 {
   margin-bottom: 15px;
 }
 
+.flexible-content {
+  padding-top: 20px;
+}
 .flexible-content .flex-text a:hover {
   color: #e8361b !important;
 }
