@@ -141,9 +141,9 @@
     @extend ._h3;
     @extend ._basic-width;
     position: relative;
-    // padding-top: $f-padding;
-    // padding-bottom: $f-padding;
-    bottom: 5px;                // EDIT
+    padding-top: $f-padding;
+    padding-bottom: $f-padding;
+    // bottom: 5px;                // EDIT
 
     @media only screen and (max-width: $break-phone) {
         font-size: 12px !important;
