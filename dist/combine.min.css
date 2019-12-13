@@ -447,11 +447,7 @@ select {
 
 .hamburger.is-active:hover {
   opacity: 0.7;
-}
-.hamburger.is-active:hover .hamburger-box {
-  position: fixed;
-  right: 12px;
-  top: 12px;
+  z-index: 10;
 }
 
 .hamburger.is-active .hamburger-inner,
