@@ -1894,7 +1894,7 @@ address {
     display: none !important;
   }
   .page-template-page-home .header-columns .nav-mobile {
-    display: none !important;
+    display: block !important;
   }
 }
 
