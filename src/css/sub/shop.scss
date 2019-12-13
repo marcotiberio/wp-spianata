@@ -38,6 +38,10 @@
         padding-top: 15px;
         padding-bottom: 15px;
 
+        @media only screen and (max-width: $break-phone) {
+            padding-top: 80px !important;
+        }
+
         .post-code-function {
             padding-bottom: 30px;
             display: flex;
