@@ -433,7 +433,7 @@ select {
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
-  color: inherit;
+  color: #777777 !important;
   text-transform: none;
   background-color: transparent;
   border: 0;
@@ -1633,7 +1633,7 @@ select {
   display: none;
 }
 .cart-mobile a {
-  color: #aaaaaa;
+  color: #777777;
 }
 @media only screen and (max-width: 600px) {
   .cart-mobile {
