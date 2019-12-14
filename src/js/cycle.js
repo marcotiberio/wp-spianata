@@ -5,10 +5,10 @@ jQuery(document).ready(function ($) {
     $("#instagram-title").hover( function() { $("#instagram-image").toggle(); } );
 });
 
-$('input#ship-to-different-address-checkbox').change(function(){
+$('input:checkbox').change(function(){
     if($(this).is(":checked")) {
-        $('.woocommerce-shipping-fields__field-wrapper').addClass("showdifferentaddress");
+        $('div.woocommerce-shipping-fields__field-wrapper').addClass("showdifferentaddress");
     } else {
-        $('.woocommerce-shipping-fields__field-wrapper').removeClass(".showdifferentaddress");
+        $('div.woocommerce-shipping-fields__field-wrapper').removeClass(".showdifferentaddress");
     }
 });
