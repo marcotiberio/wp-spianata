@@ -2240,4 +2240,8 @@ td {
   text-align: right !important;
 }
 
+.woocommerce-shipping-fields__field-wrapper {
+  display: none;
+}
+
 /*# sourceMappingURL=combine.min.css.map */
