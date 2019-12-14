@@ -2240,4 +2240,8 @@ td {
   text-align: right !important;
 }
 
+input#ship-to-different-address-checkbox {
+  background-color: #e8361b;
+}
+
 /*# sourceMappingURL=combine.min.css.map */
