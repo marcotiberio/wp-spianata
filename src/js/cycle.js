@@ -8,9 +8,6 @@ jQuery(document).ready(function ($) {
 $(document).ready(function(){
     $('#ship-to-different-address-checkbox').change(function(){
         if(this.checked)
-            $('.woocommerce-shipping-fields__field-wrapper').show('300');
-        else
-            $('.woocommerce-shipping-fields__field-wrapper').hide('300');
-
+            $('.woocommerce-shipping-fields__field-wrapper').toggle('300');
     });
 });
