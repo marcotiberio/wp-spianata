@@ -7,8 +7,8 @@ jQuery(document).ready(function ($) {
 
 $('input:checkbox').change(function(){
     if($(this).is(":checked")) {
-        $('div.woocommerce-shipping-fields__field-wrapper').addClass("showdifferentaddress");
+        $('div.shipping_address').addClass("showdifferentaddress");
     } else {
-        $('div.woocommerce-shipping-fields__field-wrapper').removeClass("showdifferentaddress");
+        $('div.shipping_address').removeClass("showdifferentaddress");
     }
 });
