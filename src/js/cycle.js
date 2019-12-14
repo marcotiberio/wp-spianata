@@ -4,3 +4,13 @@ jQuery(document).ready(function ($) {
     $("#classes-title").hover( function() { $("#classes-image").toggle(); } );
     $("#instagram-title").hover( function() { $("#instagram-image").toggle(); } );
 });
+
+$(document).ready(function(){
+    $('#ship-to-different-address-checkbox').change(function(){
+        if(this.checked)
+            $('.woocommerce-shipping-fields__field-wrapper').fadeIn('slow');
+        else
+            $('.woocommerce-shipping-fields__field-wrapper').fadeOut('slow');
+
+    });
+});
