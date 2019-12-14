@@ -2240,10 +2240,6 @@ td {
   text-align: right !important;
 }
 
-.woocommerce-shipping-fields__field-wrapper {
-  display: block;
-}
-
 .showdifferentaddress {
   display: none;
 }
