@@ -258,6 +258,6 @@ padding-top: 17px;
 //     display: none !important;
 // }
 
-input#ship-to-different-address-checkbox {
-    background-color: $red;
+input#ship-to-different-address-checkbox:checked {
+    display: none;
 }
