@@ -2240,6 +2240,10 @@ td {
   text-align: right !important;
 }
 
+input[type="checkbox"]:checked .shipping_address {
+  display: none !important;
+}
+
 .showdifferentaddress {
   display: none !important;
 }

@@ -254,6 +254,10 @@ padding-top: 17px;
 //     display: block;
 // }
 
+input[type="checkbox"]:checked .shipping_address {
+    display: none !important;
+  }
+
 .showdifferentaddress {
     display: none !important;
 }
