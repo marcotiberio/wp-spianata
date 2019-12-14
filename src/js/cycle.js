@@ -9,6 +9,6 @@ $('input:checkbox').change(function(){
     if($(this).is(":checked")) {
         $('div.woocommerce-shipping-fields__field-wrapper').addClass("showdifferentaddress");
     } else {
-        $('div.woocommerce-shipping-fields__field-wrapper').removeClass(".showdifferentaddress");
+        $('div.woocommerce-shipping-fields__field-wrapper').removeClass("showdifferentaddress");
     }
 });
