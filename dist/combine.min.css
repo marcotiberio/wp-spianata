@@ -2240,8 +2240,4 @@ td {
   text-align: right !important;
 }
 
-input#ship-to-different-address-checkbox:checked {
-  display: none;
-}
-
 /*# sourceMappingURL=combine.min.css.map */
