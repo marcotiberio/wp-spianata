@@ -2241,11 +2241,11 @@ td {
 }
 
 .woocommerce-shipping-fields__field-wrapper {
-  display: none;
+  display: block;
 }
 
 .showdifferentaddress {
-  display: block;
+  display: none;
 }
 
 /*# sourceMappingURL=combine.min.css.map */
