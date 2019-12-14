@@ -57,4 +57,19 @@ if (class_exists('Woocommerce')){
 	add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 }
 
+add_filter('woocommerce_checkout_fields', 'xa_remove_billing_checkout_fields');
+
+function xa_remove_billing_checkout_fields($fields) {
+    $shipping_method ='free_shipping:1'; // Set the desired shipping method to hide the checkout field(s).
+    global $woocommerce;
+    $chosen_methods = WC()->session->get( 'chosen_shipping_methods' );
+    $chosen_shipping = $chosen_methods[0];
+
+    if ($chosen_shipping == $shipping_method) {
+        unset($fields['billing']['billing_address_1']); // Add/change filed name to be hide
+        unset($fields['billing']['billing_address_2']);
+    }
+    return $fields;
+}
+
 
