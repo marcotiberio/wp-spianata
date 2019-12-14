@@ -5,9 +5,12 @@ jQuery(document).ready(function ($) {
     $("#instagram-title").hover( function() { $("#instagram-image").toggle(); } );
 });
 
-$(document).ready(function(){
-    $('#ship-to-different-address-checkbox').change(function(){
-        if(this.checked)
-            $('.woocommerce-shipping-fields__field-wrapper').toggle('300');
+$(function () {
+    $("#ship-to-different-address-checkbox").click(function () {
+        if ($(this).is(":checked")) {
+            $(".woocommerce-shipping-fields__field-wrapper").show();
+        } else {
+            $(".woocommerce-shipping-fields__field-wrapper").hide();
+        }
     });
 });
