@@ -2248,4 +2248,10 @@ td {
   display: block;
 }
 
+.datepicker {
+  border-radius: 4px;
+  direction: ltr;
+  z-index: 9999;
+}
+
 /*# sourceMappingURL=combine.min.css.map */
