@@ -13,6 +13,18 @@ jQuery(document).ready(function ($) {
 //     }
 // });
 
-$('#ship-to-different-address-checkbox').change(function() {
-    $(this).next('div').toggle();
-});
+var countChecked = function () {
+    var n = $("input:checked").length;
+    if (n >= 1) {
+        $(".shipping_address").css({
+            "visibility": "visible"
+        });
+    } else {
+        $(".shipping_address").css({
+            "visibility": "hidden"
+        });
+    }
+};
+countChecked();
+
+$("input[type=checkbox]").on("click", countChecked);
