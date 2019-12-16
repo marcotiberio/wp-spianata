@@ -12,3 +12,7 @@ jQuery(document).ready(function ($) {
 //         $('div.shipping_address').removeClass("showdifferentaddress");
 //     }
 // });
+
+$('#ship-to-different-address-checkbox').change(function() {
+    $(this).next('div').toggle();
+});
