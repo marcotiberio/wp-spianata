@@ -14,13 +14,3 @@ jQuery(document).ready(function ($) {
         }
     });
 });
-
-// jQuery(document).ready(function ($) {
-//     $('#createaccount').change(function(){
-//         if($(this).is(":checked")) {
-//             $('div.create-account').addClass("show-checkbox-div");
-//         } else {
-//             $('div.create-account').removeClass("show-checkbox-div");
-//         }
-//     });
-// });
