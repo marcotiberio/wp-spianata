@@ -2248,4 +2248,8 @@ td {
   display: block;
 }
 
+.ui-datepicker {
+  z-index: 9999 !important;
+}
+
 /*# sourceMappingURL=combine.min.css.map */
