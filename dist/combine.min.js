@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
 });
 
 jQuery(document).ready(function ($) {
-    $('input[type=checkbox]').change(function(){
+    $('#ship-to-different-address-checkbox').change(function(){
         if($(this).is(":checked")) {
             $('div.shipping_address').addClass("showdifferentaddress");
         } else {
