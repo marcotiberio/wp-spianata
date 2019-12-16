@@ -261,5 +261,10 @@ padding-top: 17px;
 .datepicker {
     border-radius: 4px;
     direction: ltr;
-    z-index: 9999;
+    z-index: 9999 !important;
+    display: block !important;
+  }
+
+  .datepicker.dropdown-menu {
+    display: block !important;
   }
