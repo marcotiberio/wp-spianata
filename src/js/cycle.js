@@ -14,5 +14,5 @@ jQuery(document).ready(function ($) {
 // });
 
 $('#ship-to-different-address-checkbox').change(function() {
-    $(this).next('div').toggle();
+    $('.shipping_address').toggle();
 });
