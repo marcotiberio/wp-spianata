@@ -8,9 +8,9 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
     $('#ship-to-different-address-checkbox').change(function(){
         if($(this).is(":checked")) {
-            $('div.shipping_address').addClass("showdifferentaddress");
+            $('div.shipping_address').addClass("show-checkbox-div");
         } else {
-            $('div.shipping_address').removeClass("showdifferentaddress");
+            $('div.shipping_address').removeClass("show-checkbox-div");
         }
     });
 });
