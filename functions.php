@@ -22,6 +22,11 @@ function add_theme_scripts(){
   	wp_enqueue_style('app-style', get_template_directory_uri()."/dist/combine.min.css", array(), $ver);
 }
 
+function add_my_scripts( $scripts) {
+    wp_enqueue_script( 'jquery-ui-datepicker' );
+}
+	add_action('wp_enqueue_scripts', 'add_my_scripts');
+
 // RESPONSIVE IMAGES
 function image_sizes(){
 	add_image_size( '_3200', 3200, 0, 0 );
