@@ -3,7 +3,7 @@
   margin-right: auto;
   width: 550px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   ._basic-width, .footer-main, .flexible-content .flex-text, .post-type-archive-product .post-code, .post-type-archive-product .all-categories .option-top, .post-type-archive-product .all-categories .woo-category, .woocommerce-page .woocommerce {
     width: calc(100% - 40px);
     padding-top: 80px;
@@ -1472,7 +1472,7 @@ select {
   display: block;
   color: #111111 !important;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .navigation {
     display: none;
   }
@@ -1516,7 +1516,7 @@ select {
   width: 15%;
   display: block;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .nav-cart {
     display: none;
   }
@@ -1570,7 +1570,7 @@ select {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .footer-main {
     font-size: 12px !important;
     justify-content: inherit;
@@ -1624,7 +1624,7 @@ select {
 .nav-mobile {
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .nav-mobile {
     display: block;
     margin-bottom: 30px;
@@ -1637,7 +1637,7 @@ select {
 .cart-mobile a {
   color: #777777;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .cart-mobile {
     display: block;
     position: fixed;
@@ -1747,7 +1747,7 @@ h2 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .post-type-archive-product .post-code {
     padding-top: 80px !important;
   }
@@ -1776,12 +1776,12 @@ h2 {
 .post-type-archive-product .all-categories .option-top {
   margin-top: 20px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .post-type-archive-product .all-categories .option-top .flex-text {
     width: auto !important;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .post-type-archive-product .all-categories {
     padding-top: 30px;
   }
@@ -1871,7 +1871,7 @@ address {
   display: none !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .shop-footer p {
     margin: 20px !important;
   }
@@ -1890,7 +1890,7 @@ address {
 .page-template-page-home .header-columns .navigation {
   display: none !important;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .page-template-page-home .header-columns {
     display: block !important;
   }
@@ -1937,7 +1937,7 @@ address {
   color: #ffffff;
   line-height: 1em;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .homepage .desktop .desktop-title .title {
     font-size: 32px !important;
   }
@@ -1950,7 +1950,7 @@ address {
   color: #e8361b;
   transition: 0.2s ease;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .homepage .desktop .desktop-title {
     height: 20% !important;
   }
@@ -1973,7 +1973,7 @@ address {
   background-size: cover;
   overflow: hidden;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .homepage .desktop {
     display: none;
   }
@@ -1981,7 +1981,7 @@ address {
 .homepage .mobile {
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .homepage .mobile {
     display: grid;
     grid-template-columns: 1fr;
@@ -2020,7 +2020,7 @@ address {
 .homepage-footer .menu li {
   padding-right: 15px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .homepage-footer {
     display: none;
   }
