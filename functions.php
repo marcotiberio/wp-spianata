@@ -57,4 +57,45 @@ if (class_exists('Woocommerce')){
 	add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 }
 
+// Register main datepicker jQuery plugin script
+add_action( 'wp_enqueue_scripts', 'enabling_date_picker' );
+function enabling_date_picker() {
+    // Only on front-end and checkout page
+    if( is_admin() || ! is_checkout() ) return;
+
+    // Load the datepicker jQuery-ui plugin script
+    wp_enqueue_script( 'jquery-ui-datepicker' );
+    wp_enqueue_style('jquery-ui', "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css", '', '', false);
+}
+
+// Add custom checkout datepicker field
+add_action( 'woocommerce_before_order_notes', 'datepicker_custom_field' );
+function datepicker_custom_field($checkout) {
+    $datepicker_slug = 'my_datepicker';
+
+    echo '<div id="datepicker-wrapper">';
+
+    woocommerce_form_field($datepicker_slug, array(
+        'type' => 'text',
+        'class'=> array( 'form-row-first my-datepicker'),
+        'label' => __('My Custom Date-picker'),
+        'required' => true, // Or false
+    ), '' );
+
+    echo '<br clear="all"></div>';
+
+
+    // Jquery: Enable the Datepicker
+    ?>
+    <script language="javascript">
+    jQuery( function($){
+        var a = '#<?php echo $datepicker_slug ?>';
+        $(a).datepicker({
+            dateFormat: 'yy-mm-dd', // ISO formatting date
+        });
+    });
+    </script>
+    <?php
+}
+
 
