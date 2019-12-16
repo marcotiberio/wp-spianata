@@ -49,6 +49,15 @@ function register_my_menus() {
 	);
 }
 
+function hkdc_admin_styles() {
+	wp_enqueue_style( 'jquery-ui-datepicker-style' , '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css');
+  }
+  add_action('admin_print_styles', 'hkdc_admin_styles');
+  function hkdc_admin_scripts() {
+	wp_enqueue_script( 'jquery-ui-datepicker' );
+  }
+  add_action('admin_enqueue_scripts', 'hkdc_admin_scripts');
+
 
 function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
@@ -56,3 +65,11 @@ function woocommerce_support() {
 if (class_exists('Woocommerce')){
 	add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 }
+
+function hkdc_post_date_field() {
+	echo '<input type="text" id="jquery-datepicker" name="entry_post_date" value="' . get_post_meta( $post->ID, 'entry_post_date', true ) . '">';
+ }
+ function hkdc_post_date_meta_box() {
+   add_meta_box('entry_post_date', 'Date', 'hkdc_post_date_field', 'post', 'side', 'default');
+ }
+ add_action('add_meta_boxes', 'hkdc_post_date_meta_box');

@@ -18,3 +18,7 @@ jQuery(document).ready(function ($) {
         }
     });
 });
+
+jQuery(document).ready(function ($) {
+    $('#jquery-datepicker').datepicker();
+  });
