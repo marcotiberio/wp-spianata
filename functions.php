@@ -55,6 +55,8 @@ function hkdc_admin_styles() {
   add_action('admin_print_styles', 'hkdc_admin_styles');
   function hkdc_admin_scripts() {
 	wp_enqueue_script( 'jquery-ui-datepicker' );
+	wp_enqueue_script( 'wp-jquery-date-picker', get_template_directory_uri()."/dist/combine.min.js", array( 'jquery' ), $ver);
+
   }
   add_action('admin_enqueue_scripts', 'hkdc_admin_scripts');
 
