@@ -254,8 +254,12 @@ padding-top: 17px;
 //     display: block;
 // }
 
+.shipping_address {
+    display: none;
+}
+
 .showdifferentaddress {
-    display: none !important;
+    display: block;
 }
 
 // input#ship-to-different-address-checkbox {

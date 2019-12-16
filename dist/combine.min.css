@@ -2240,8 +2240,12 @@ td {
   text-align: right !important;
 }
 
+.shipping_address {
+  display: none;
+}
+
 .showdifferentaddress {
-  display: none !important;
+  display: block;
 }
 
 /*# sourceMappingURL=combine.min.css.map */
