@@ -2240,6 +2240,10 @@ td {
   text-align: right !important;
 }
 
+.create-account {
+  display: none;
+}
+
 .shipping_address {
   display: none;
 }
