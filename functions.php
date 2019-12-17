@@ -12,36 +12,6 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 add_action( 'init', 'register_my_menus' );
 add_filter('show_admin_bar', '__return_false');
 
-// no need to enqueue -core, because dependancies are set
-wp_enqueue_script( 'jquery-ui-widget' );
-wp_enqueue_script( 'jquery-ui-mouse' );
-wp_enqueue_script( 'jquery-ui-accordion' );
-wp_enqueue_script( 'jquery-ui-autocomplete' );
-wp_enqueue_script( 'jquery-ui-slider' );
-
-// in constructor
-add_action( 'wp_enqueue_scripts', array($this, 'enqueue_scripts') );
-add_action( 'wp_enqueue_scripts', array($this, 'enqueue_styles') );
-
-public function enqueue_scripts()
-{
-wp_enqueue_script( 'jquery-ui-widget' );
-wp_enqueue_script( 'jquery-ui-mouse' );
-wp_enqueue_script( 'jquery-ui-accordion' );
-wp_enqueue_script( 'jquery-ui-autocomplete' );
-wp_enqueue_script( 'jquery-ui-slider' );
-}
-public function enqueue_styles()
-{
-$wp_scripts = wp_scripts();
-wp_enqueue_style(
-  'jquery-ui-theme-smoothness',
-  sprintf(
-	'//ajax.googleapis.com/ajax/libs/jqueryui/%s/themes/smoothness/jquery-ui.css', // working for https as well now
-	$wp_scripts->registered['jquery-ui-core']->ver
-  )
-);
-}
 
 // JAVACSRIPT, CSS
 function add_theme_scripts(){
