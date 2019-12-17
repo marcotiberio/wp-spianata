@@ -12,7 +12,6 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 add_action( 'init', 'register_my_menus' );
 add_filter('show_admin_bar', '__return_false');
 
-
 // JAVACSRIPT, CSS
 function add_theme_scripts(){
 	global $ver;
