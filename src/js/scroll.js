@@ -5,6 +5,6 @@ jQuery(document).ready(function ($) {
         var status = $(this).attr('data-name');
         $('html, body').animate({
             scrollTop: $("#" + status).offset().top - 20
-        }, 1000);
+        }, 300);
     });
 });
