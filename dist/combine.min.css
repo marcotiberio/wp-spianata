@@ -2193,6 +2193,10 @@ td {
   padding-bottom: 50px;
 }
 
+.woocommerce-billing-fields h3 {
+  display: none;
+}
+
 .cart_totals h2 {
   display: none !important;
 }
