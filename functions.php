@@ -17,6 +17,7 @@ function add_theme_scripts(){
 	global $ver;
 	wp_enqueue_style('style', get_template_directory_uri()."/style.css", array(), $ver);
 	wp_enqueue_script('marquee', get_template_directory_uri()."/assets/jquery.marquee.min.js", array( 'jquery' ), $ver);
+	wp_enqueue_script('jquery-ui', get_template_directory_uri()."/assets/jquery-ui.min.js", array( 'jquery' ), $ver);
 	wp_enqueue_script('cookie', get_template_directory_uri()."/assets/cookie.js", array( 'jquery' ), $ver);
 	wp_enqueue_script('app', get_template_directory_uri()."/dist/combine.min.js", array( 'jquery' ), $ver);
   	wp_enqueue_style('app-style', get_template_directory_uri()."/dist/combine.min.css", array(), $ver);
